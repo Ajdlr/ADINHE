@@ -1,0 +1,14 @@
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Biblioteca1\bin\Debug\Biblioteca1.dll
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Biblioteca1\bin\Debug\Biblioteca1.pdb
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Biblioteca1\obj\Debug\Biblioteca1.dll
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Biblioteca1\obj\Debug\Biblioteca1.pdb
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Entidades\bin\Debug\Biblioteca1.dll
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Entidades\bin\Debug\Biblioteca1.pdb
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Entidades\obj\Debug\Biblioteca1.dll
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Entidades\obj\Debug\Biblioteca1.pdb
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Entidades\bin\Debug\Biblioteca1.dll
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Entidades\bin\Debug\Biblioteca1.pdb
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Entidades\obj\Debug\Biblioteca1.dll
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\Entidades\obj\Debug\Biblioteca1.pdb

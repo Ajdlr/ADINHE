@@ -1,0 +1,144 @@
+C:\Users\pc\source\repos\ADINHE\ADINHE\bin\Debug\ADINHE.exe.config
+C:\Users\pc\source\repos\ADINHE\ADINHE\bin\Debug\ADINHE.exe
+C:\Users\pc\source\repos\ADINHE\ADINHE\bin\Debug\ADINHE.pdb
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.Administrador.resources
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.Almacen.resources
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.Properties.Resources.resources
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.exe
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.pdb
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.Login.resources
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.Herramientas.resources
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.Aprobar.resources
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.Comprar.resources
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.Material.resources
+C:\Users\pc\source\repos\ADINHE\ADINHE\obj\Debug\ADINHE.Herramienta.resources
+C:\Users\andre\Desktop\ADINHE\ADINHE\bin\Debug\ADINHE.exe.config
+C:\Users\andre\Desktop\ADINHE\ADINHE\bin\Debug\ADINHE.exe
+C:\Users\andre\Desktop\ADINHE\ADINHE\bin\Debug\ADINHE.pdb
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.Administrador.resources
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.Almacen.resources
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.Aprobar.resources
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.Comprar.resources
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.Herramienta.resources
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.Herramientas.resources
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.Login.resources
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.Material.resources
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.Properties.Resources.resources
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.exe
+C:\Users\andre\Desktop\ADINHE\ADINHE\obj\Debug\ADINHE.pdb
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\bin\Debug\ADINHE.exe.config
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\bin\Debug\ADINHE.exe
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\bin\Debug\ADINHE.pdb
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.csprojAssemblyReference.cache
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Administrador.resources
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Almacen.resources
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Aprobar.resources
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Comprar.resources
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Herramienta.resources
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Herramientas.resources
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Login.resources
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Material.resources
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Properties.Resources.resources
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.GenerateResource.cache
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.CoreCompileInputs.cache
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.exe
+C:\Users\pc\Downloads\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.pdb
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\bin\Debug\ADINHE.exe.config
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\bin\Debug\ADINHE.exe
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\bin\Debug\ADINHE.pdb
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Administrador.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Almacen.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Aprobar.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Comprar.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Herramienta.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Herramientas.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Login.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Material.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Properties.Resources.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.exe
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.pdb
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Encargado.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Recepcion.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.DetallesdeProyecto.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Proyectos.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E\ADINHE\ADINHE\obj\Debug\ADINHE.Registro.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Administrador.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Almacen.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Aprobar.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Comprar.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Encargado.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.DetallesdeProyecto.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Proyectos.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Recepcion.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Herramienta.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Herramientas.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Login.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Material.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Properties.Resources.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Registro.resources
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.exe
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.pdb
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\ADINHE.exe.config
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\ADINHE.exe
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\ADINHE.pdb
+C:\Users\andre\Desktop\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Almacenista.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csprojResolveAssemblyReference.cache
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Administrador.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Almacen.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Almacenista.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Aprobar.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Comprar.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Encargado.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.DetallesdeProyecto.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Proyectos.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Recepcion.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Herramienta.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Herramientas.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Login.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Material.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Properties.Resources.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Registro.resources
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.GenerateResource.Cache
+C:\Users\Jorge Ginez\Desktop\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\ADINHE.exe.config
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\ADINHE.exe.config
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\ADINHE.exe
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\ADINHE.pdb
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\Biblioteca1.dll
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\Biblioteca2.dll
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\Biblioteca3.dll
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\Biblioteca1.pdb
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\Biblioteca2.pdb
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\bin\Debug\Biblioteca3.pdb
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Administrador.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Almacen.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Almacenista.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Aprobar.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Comprar.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.DetallesdeProyecto.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Encargado.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Proyectos.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Recepcion.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Herramienta.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Herramientas.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Login.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Material.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Properties.Resources.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Registro.resources
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.CopyComplete
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.exe
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.pdb
