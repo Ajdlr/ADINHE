@@ -50,13 +50,6 @@ namespace ADINHE
             Material1.Show();
         }
 
-        private void BotonHerramienta_Click(object sender, EventArgs e)
-        {
-            Herramienta Herramienta1 = new Herramienta();
-            this.Hide();
-            Herramienta1.Show();
-        }
-
         private void BotonAlmacen_Click(object sender, EventArgs e)
         {
             Almacen Almacen1 = new Almacen();
@@ -89,7 +82,6 @@ namespace ADINHE
             BotonAprobar.BackColor = Color.FromArgb(255, 240, 225, 197);
             BotonComprar.BackColor = Color.FromArgb(255, 240, 225, 197);
             BotonMaterial.BackColor = Color.FromArgb(255, 240, 225, 197);
-            BotonHerramienta.BackColor = Color.FromArgb(255, 240, 225, 197);
         }
 
         private void panel4_Paint(object sender, PaintEventArgs e)

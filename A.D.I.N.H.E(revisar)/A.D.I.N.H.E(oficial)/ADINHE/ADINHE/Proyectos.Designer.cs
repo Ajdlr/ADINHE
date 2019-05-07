@@ -31,14 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Proyectos));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.BotonVerProy = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ver = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.proyectos_ver = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BotonRegresar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.proyectos_ver = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EncProy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.matproy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.herrproy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -59,49 +60,24 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.BotonVerProy);
             this.panel4.Controls.Add(this.dataGridView1);
-            this.panel4.Location = new System.Drawing.Point(199, 90);
+            this.panel4.Location = new System.Drawing.Point(134, 90);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(379, 245);
+            this.panel4.Size = new System.Drawing.Size(504, 267);
             this.panel4.TabIndex = 35;
-            // 
-            // BotonVerProy
-            // 
-            this.BotonVerProy.BackColor = System.Drawing.Color.Black;
-            this.BotonVerProy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonVerProy.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonVerProy.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonVerProy.Location = new System.Drawing.Point(82, 145);
-            this.BotonVerProy.Name = "BotonVerProy";
-            this.BotonVerProy.Size = new System.Drawing.Size(207, 49);
-            this.BotonVerProy.TabIndex = 34;
-            this.BotonVerProy.Text = "Ver Proyecto";
-            this.BotonVerProy.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ver,
-            this.proyectos_ver});
-            this.dataGridView1.Location = new System.Drawing.Point(63, 18);
+            this.proyectos_ver,
+            this.EncProy,
+            this.matproy,
+            this.herrproy});
+            this.dataGridView1.Location = new System.Drawing.Point(40, 18);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(243, 47);
+            this.dataGridView1.Size = new System.Drawing.Size(444, 45);
             this.dataGridView1.TabIndex = 17;
-            // 
-            // ver
-            // 
-            this.ver.HeaderText = "Ver proyecto";
-            this.ver.Name = "ver";
-            this.ver.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // proyectos_ver
-            // 
-            this.proyectos_ver.HeaderText = "Proyecto";
-            this.proyectos_ver.Name = "proyectos_ver";
-            this.proyectos_ver.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.proyectos_ver.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // panel3
             // 
@@ -147,6 +123,28 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "Proyectos";
             // 
+            // proyectos_ver
+            // 
+            this.proyectos_ver.HeaderText = "Proyecto";
+            this.proyectos_ver.Name = "proyectos_ver";
+            this.proyectos_ver.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.proyectos_ver.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // EncProy
+            // 
+            this.EncProy.HeaderText = "Encargado";
+            this.EncProy.Name = "EncProy";
+            // 
+            // matproy
+            // 
+            this.matproy.HeaderText = "Materiales";
+            this.matproy.Name = "matproy";
+            // 
+            // herrproy
+            // 
+            this.herrproy.HeaderText = "Herramientas";
+            this.herrproy.Name = "herrproy";
+            // 
             // Proyectos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -171,13 +169,14 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button BotonVerProy;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn ver;
-        private System.Windows.Forms.DataGridViewTextBoxColumn proyectos_ver;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button BotonRegresar;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn proyectos_ver;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EncProy;
+        private System.Windows.Forms.DataGridViewTextBoxColumn matproy;
+        private System.Windows.Forms.DataGridViewTextBoxColumn herrproy;
     }
 }

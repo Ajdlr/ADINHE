@@ -35,6 +35,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.Tmaterial = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.AgregarMaterial = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -78,8 +80,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BotonRegresar = new System.Windows.Forms.Button();
-            this.Tmaterial = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -174,6 +174,23 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Agregar";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // Tmaterial
+            // 
+            this.Tmaterial.Location = new System.Drawing.Point(251, 71);
+            this.Tmaterial.Name = "Tmaterial";
+            this.Tmaterial.Size = new System.Drawing.Size(772, 20);
+            this.Tmaterial.TabIndex = 15;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(22, 65);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(182, 25);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Tipo de material";
             // 
             // AgregarMaterial
             // 
@@ -543,23 +560,6 @@
             this.BotonRegresar.Text = "Regresar";
             this.BotonRegresar.UseVisualStyleBackColor = false;
             this.BotonRegresar.Click += new System.EventHandler(this.BotonRegresar_Click);
-            // 
-            // Tmaterial
-            // 
-            this.Tmaterial.Location = new System.Drawing.Point(251, 71);
-            this.Tmaterial.Name = "Tmaterial";
-            this.Tmaterial.Size = new System.Drawing.Size(772, 20);
-            this.Tmaterial.TabIndex = 15;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(22, 65);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(182, 25);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "Tipo de material";
             // 
             // Almacen
             // 

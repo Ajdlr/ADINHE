@@ -35,22 +35,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ID_Proy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.BotonBorrar = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.entregadas = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.entregadaH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Entregada = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nom_Herr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label10 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -68,13 +53,17 @@
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BotonRegresar = new System.Windows.Forms.Button();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EncHerr = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FSalida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FRegreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -115,7 +104,6 @@
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Location = new System.Drawing.Point(71, 105);
             this.tabControl1.Name = "tabControl1";
@@ -139,40 +127,16 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn6,
-            this.ID_Proy,
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10});
-            this.dataGridView1.Location = new System.Drawing.Point(282, 56);
+            this.dataGridViewTextBoxColumn10,
+            this.EncHerr,
+            this.FSalida,
+            this.FRegreso});
+            this.dataGridView1.Location = new System.Drawing.Point(216, 46);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(545, 47);
+            this.dataGridView1.Size = new System.Drawing.Size(644, 47);
             this.dataGridView1.TabIndex = 16;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "ID_Herr";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            // 
-            // ID_Proy
-            // 
-            this.ID_Proy.HeaderText = "ID_Proy";
-            this.ID_Proy.Name = "ID_Proy";
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Nom_Herr";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.HeaderText = "Medi_Herr";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.HeaderText = "Cant_Herr";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
             // label1
             // 
@@ -183,88 +147,6 @@
             this.label1.Size = new System.Drawing.Size(295, 25);
             this.label1.TabIndex = 15;
             this.label1.Text = "Herramientas en proyectos";
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage3.Controls.Add(this.BotonBorrar);
-            this.tabPage3.Controls.Add(this.dataGridView2);
-            this.tabPage3.Controls.Add(this.label10);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1058, 472);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Entregadas";
-            // 
-            // BotonBorrar
-            // 
-            this.BotonBorrar.BackColor = System.Drawing.Color.Black;
-            this.BotonBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonBorrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonBorrar.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonBorrar.Location = new System.Drawing.Point(478, 263);
-            this.BotonBorrar.Name = "BotonBorrar";
-            this.BotonBorrar.Size = new System.Drawing.Size(132, 49);
-            this.BotonBorrar.TabIndex = 19;
-            this.BotonBorrar.Text = "Entregada";
-            this.BotonBorrar.UseVisualStyleBackColor = false;
-            this.BotonBorrar.Click += new System.EventHandler(this.BotonBorrar_Click);
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.entregadas,
-            this.entregadaH,
-            this.dataGridViewTextBoxColumn1,
-            this.Entregada,
-            this.Nom_Herr,
-            this.Cant_Mat});
-            this.dataGridView2.Location = new System.Drawing.Point(145, 63);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(643, 46);
-            this.dataGridView2.TabIndex = 15;
-            // 
-            // entregadas
-            // 
-            this.entregadas.HeaderText = "Entregadas";
-            this.entregadas.Name = "entregadas";
-            // 
-            // entregadaH
-            // 
-            this.entregadaH.HeaderText = "Entregadas";
-            this.entregadaH.Name = "entregadaH";
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID_Orden";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // Entregada
-            // 
-            this.Entregada.HeaderText = "ID_Herr";
-            this.Entregada.Name = "Entregada";
-            // 
-            // Nom_Herr
-            // 
-            this.Nom_Herr.HeaderText = "Nom_Herr";
-            this.Nom_Herr.Name = "Nom_Herr";
-            // 
-            // Cant_Mat
-            // 
-            this.Cant_Mat.HeaderText = "Cant_Herr";
-            this.Cant_Mat.Name = "Cant_Mat";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(403, 3);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(277, 25);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "Herramientas entregadas";
             // 
             // tabPage4
             // 
@@ -439,6 +321,36 @@
             this.BotonRegresar.UseVisualStyleBackColor = false;
             this.BotonRegresar.Click += new System.EventHandler(this.BotonRegresar_Click);
             // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.HeaderText = "Herramienta";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.HeaderText = "Proyecto";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.HeaderText = "Estado";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            // 
+            // EncHerr
+            // 
+            this.EncHerr.HeaderText = "Encargado";
+            this.EncHerr.Name = "EncHerr";
+            // 
+            // FSalida
+            // 
+            this.FSalida.HeaderText = "Salida";
+            this.FSalida.Name = "FSalida";
+            // 
+            // FRegreso
+            // 
+            this.FRegreso.HeaderText = "Entrega";
+            this.FRegreso.Name = "FRegreso";
+            // 
             // Herramientas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -460,9 +372,6 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -477,10 +386,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.Button BotonBorrar;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.DataGridView dataGridView1;
@@ -496,20 +401,15 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button BotonEnviar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID_Proy;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn entregadas;
-        private System.Windows.Forms.DataGridViewTextBoxColumn entregadaH;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Entregada;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nom_Herr;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cant_Mat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EncHerr;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FSalida;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FRegreso;
     }
 }

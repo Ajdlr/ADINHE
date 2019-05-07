@@ -83,12 +83,6 @@
     <Compile Include="Comprar.Designer.cs">
       <DependentUpon>Comprar.cs</DependentUpon>
     </Compile>
-    <Compile Include="DetallesdeProyecto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DetallesdeProyecto.Designer.cs">
-      <DependentUpon>DetallesdeProyecto.cs</DependentUpon>
-    </Compile>
     <Compile Include="Encargado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,12 +100,6 @@
     </Compile>
     <Compile Include="Recepcion.Designer.cs">
       <DependentUpon>Recepcion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Herramienta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Herramienta.Designer.cs">
-      <DependentUpon>Herramienta.cs</DependentUpon>
     </Compile>
     <Compile Include="Herramientas.cs">
       <SubType>Form</SubType>
@@ -154,9 +142,6 @@
     <EmbeddedResource Include="Comprar.resx">
       <DependentUpon>Comprar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DetallesdeProyecto.resx">
-      <DependentUpon>DetallesdeProyecto.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Encargado.resx">
       <DependentUpon>Encargado.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,9 +150,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Recepcion.resx">
       <DependentUpon>Recepcion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Herramienta.resx">
-      <DependentUpon>Herramienta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Herramientas.resx">
       <DependentUpon>Herramientas.cs</DependentUpon>

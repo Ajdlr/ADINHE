@@ -31,8 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Administrador));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.registroU = new System.Windows.Forms.Button();
+            this.DProyectos = new System.Windows.Forms.Button();
             this.BotonAlmacen = new System.Windows.Forms.Button();
-            this.BotonHerramienta = new System.Windows.Forms.Button();
             this.BotonMaterial = new System.Windows.Forms.Button();
             this.BotonComprar = new System.Windows.Forms.Button();
             this.BotonAprobar = new System.Windows.Forms.Button();
@@ -41,8 +42,6 @@
             this.BotonCerrarSesion = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.DProyectos = new System.Windows.Forms.Button();
-            this.registroU = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -68,7 +67,6 @@
             this.panel4.Controls.Add(this.registroU);
             this.panel4.Controls.Add(this.DProyectos);
             this.panel4.Controls.Add(this.BotonAlmacen);
-            this.panel4.Controls.Add(this.BotonHerramienta);
             this.panel4.Controls.Add(this.BotonMaterial);
             this.panel4.Controls.Add(this.BotonComprar);
             this.panel4.Controls.Add(this.BotonAprobar);
@@ -78,6 +76,36 @@
             this.panel4.Size = new System.Drawing.Size(557, 296);
             this.panel4.TabIndex = 12;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // registroU
+            // 
+            this.registroU.BackColor = System.Drawing.Color.Transparent;
+            this.registroU.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.registroU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.registroU.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registroU.Location = new System.Drawing.Point(2, 225);
+            this.registroU.Name = "registroU";
+            this.registroU.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.registroU.Size = new System.Drawing.Size(261, 67);
+            this.registroU.TabIndex = 8;
+            this.registroU.Text = "Registrar Usuario";
+            this.registroU.UseVisualStyleBackColor = false;
+            this.registroU.Click += new System.EventHandler(this.registroU_Click);
+            // 
+            // DProyectos
+            // 
+            this.DProyectos.BackColor = System.Drawing.Color.Transparent;
+            this.DProyectos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.DProyectos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DProyectos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DProyectos.Location = new System.Drawing.Point(2, 2);
+            this.DProyectos.Name = "DProyectos";
+            this.DProyectos.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.DProyectos.Size = new System.Drawing.Size(261, 68);
+            this.DProyectos.TabIndex = 7;
+            this.DProyectos.Text = "Proyectos";
+            this.DProyectos.UseVisualStyleBackColor = false;
+            this.DProyectos.Click += new System.EventHandler(this.button1_Click);
             // 
             // BotonAlmacen
             // 
@@ -93,21 +121,6 @@
             this.BotonAlmacen.Text = "Almacén";
             this.BotonAlmacen.UseVisualStyleBackColor = false;
             this.BotonAlmacen.Click += new System.EventHandler(this.BotonAlmacen_Click);
-            // 
-            // BotonHerramienta
-            // 
-            this.BotonHerramienta.BackColor = System.Drawing.Color.Transparent;
-            this.BotonHerramienta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BotonHerramienta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonHerramienta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonHerramienta.Location = new System.Drawing.Point(294, 222);
-            this.BotonHerramienta.Name = "BotonHerramienta";
-            this.BotonHerramienta.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BotonHerramienta.Size = new System.Drawing.Size(261, 70);
-            this.BotonHerramienta.TabIndex = 6;
-            this.BotonHerramienta.Text = "Herramienta";
-            this.BotonHerramienta.UseVisualStyleBackColor = false;
-            this.BotonHerramienta.Click += new System.EventHandler(this.BotonHerramienta_Click);
             // 
             // BotonMaterial
             // 
@@ -215,36 +228,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Administrador";
             // 
-            // DProyectos
-            // 
-            this.DProyectos.BackColor = System.Drawing.Color.Transparent;
-            this.DProyectos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.DProyectos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DProyectos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DProyectos.Location = new System.Drawing.Point(2, 2);
-            this.DProyectos.Name = "DProyectos";
-            this.DProyectos.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.DProyectos.Size = new System.Drawing.Size(261, 68);
-            this.DProyectos.TabIndex = 7;
-            this.DProyectos.Text = "Proyectos";
-            this.DProyectos.UseVisualStyleBackColor = false;
-            this.DProyectos.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // registroU
-            // 
-            this.registroU.BackColor = System.Drawing.Color.Transparent;
-            this.registroU.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.registroU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.registroU.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.registroU.Location = new System.Drawing.Point(2, 225);
-            this.registroU.Name = "registroU";
-            this.registroU.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.registroU.Size = new System.Drawing.Size(261, 67);
-            this.registroU.TabIndex = 8;
-            this.registroU.Text = "Registrar Usuario";
-            this.registroU.UseVisualStyleBackColor = false;
-            this.registroU.Click += new System.EventHandler(this.registroU_Click);
-            // 
             // Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -271,7 +254,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button BotonHerramienta;
         private System.Windows.Forms.Button BotonMaterial;
         private System.Windows.Forms.Button BotonComprar;
         private System.Windows.Forms.Button BotonAprobar;

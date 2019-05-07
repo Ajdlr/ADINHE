@@ -16,14 +16,6 @@ namespace ADINHE
         {
             InitializeComponent();
         }
-
-        private void BotonHerramienta_Click(object sender, EventArgs e)
-        {
-            Herramienta Herramienta1 = new Herramienta();
-            this.Hide();
-            Herramienta1.Show();
-        }
-
         private void BotonMaterial_Click(object sender, EventArgs e)
         {
             Material Material1 = new Material();

@@ -36,6 +36,7 @@
             this.BotonCerrarSesion = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.BotonHerramientas = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -55,11 +56,12 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.BotonHerramientas);
             this.panel4.Controls.Add(this.Botoncomprar);
             this.panel4.Controls.Add(this.BotonAlmacen);
-            this.panel4.Location = new System.Drawing.Point(65, 110);
+            this.panel4.Location = new System.Drawing.Point(33, 108);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(467, 235);
+            this.panel4.Size = new System.Drawing.Size(467, 245);
             this.panel4.TabIndex = 15;
             // 
             // Botoncomprar
@@ -70,7 +72,7 @@
             this.Botoncomprar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Botoncomprar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Botoncomprar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(85)))), ((int)(((byte)(46)))));
-            this.Botoncomprar.Location = new System.Drawing.Point(99, 49);
+            this.Botoncomprar.Location = new System.Drawing.Point(113, 12);
             this.Botoncomprar.Name = "Botoncomprar";
             this.Botoncomprar.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Botoncomprar.Size = new System.Drawing.Size(261, 67);
@@ -87,7 +89,7 @@
             this.BotonAlmacen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonAlmacen.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonAlmacen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(85)))), ((int)(((byte)(46)))));
-            this.BotonAlmacen.Location = new System.Drawing.Point(99, 122);
+            this.BotonAlmacen.Location = new System.Drawing.Point(113, 85);
             this.BotonAlmacen.Name = "BotonAlmacen";
             this.BotonAlmacen.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.BotonAlmacen.Size = new System.Drawing.Size(261, 67);
@@ -140,11 +142,27 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(85)))), ((int)(((byte)(46)))));
-            this.label1.Location = new System.Drawing.Point(216, 20);
+            this.label1.Location = new System.Drawing.Point(193, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 31);
+            this.label1.Size = new System.Drawing.Size(173, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Recepción";
+            this.label1.Text = "Almacenista";
+            // 
+            // BotonHerramientas
+            // 
+            this.BotonHerramientas.BackColor = System.Drawing.Color.Transparent;
+            this.BotonHerramientas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BotonHerramientas.FlatAppearance.BorderSize = 0;
+            this.BotonHerramientas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BotonHerramientas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonHerramientas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(85)))), ((int)(((byte)(46)))));
+            this.BotonHerramientas.Location = new System.Drawing.Point(113, 158);
+            this.BotonHerramientas.Name = "BotonHerramientas";
+            this.BotonHerramientas.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.BotonHerramientas.Size = new System.Drawing.Size(261, 67);
+            this.BotonHerramientas.TabIndex = 13;
+            this.BotonHerramientas.Text = "Herramientas";
+            this.BotonHerramientas.UseVisualStyleBackColor = false;
             // 
             // Almacenista
             // 
@@ -173,5 +191,6 @@
         private System.Windows.Forms.Button BotonCerrarSesion;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button BotonHerramientas;
     }
 }

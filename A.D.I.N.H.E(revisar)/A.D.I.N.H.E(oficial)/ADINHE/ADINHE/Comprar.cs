@@ -81,8 +81,6 @@ namespace ADINHE
             panel2.BackColor = Color.FromArgb(180, 236, 231, 224);
             panel3.BackColor = Color.FromArgb(180, 236, 231, 224);
             tabPage2.BackColor = Color.FromArgb(255, 240, 225, 197);
-            tabPage3.BackColor = Color.FromArgb(255, 240, 225, 197);
-            BotonBorrar.BackColor = Color.FromArgb(255, 161, 119, 65);
             BotonComprar.BackColor = Color.FromArgb(255, 161, 119, 65);
         }
     }

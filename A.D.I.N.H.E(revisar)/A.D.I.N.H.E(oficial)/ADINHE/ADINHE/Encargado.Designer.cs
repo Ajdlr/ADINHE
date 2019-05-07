@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Encargado));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.BotonHerramienta = new System.Windows.Forms.Button();
             this.BotonMaterial = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BotonCerrarSesion = new System.Windows.Forms.Button();
@@ -56,29 +55,11 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.BotonHerramienta);
             this.panel4.Controls.Add(this.BotonMaterial);
             this.panel4.Location = new System.Drawing.Point(65, 110);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(467, 235);
             this.panel4.TabIndex = 15;
-            // 
-            // BotonHerramienta
-            // 
-            this.BotonHerramienta.BackColor = System.Drawing.Color.Transparent;
-            this.BotonHerramienta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BotonHerramienta.FlatAppearance.BorderSize = 0;
-            this.BotonHerramienta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonHerramienta.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonHerramienta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(85)))), ((int)(((byte)(46)))));
-            this.BotonHerramienta.Location = new System.Drawing.Point(99, 49);
-            this.BotonHerramienta.Name = "BotonHerramienta";
-            this.BotonHerramienta.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BotonHerramienta.Size = new System.Drawing.Size(261, 70);
-            this.BotonHerramienta.TabIndex = 8;
-            this.BotonHerramienta.Text = "Herramienta";
-            this.BotonHerramienta.UseVisualStyleBackColor = false;
-            this.BotonHerramienta.Click += new System.EventHandler(this.BotonHerramienta_Click);
             // 
             // BotonMaterial
             // 
@@ -88,7 +69,7 @@
             this.BotonMaterial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonMaterial.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(85)))), ((int)(((byte)(46)))));
-            this.BotonMaterial.Location = new System.Drawing.Point(99, 125);
+            this.BotonMaterial.Location = new System.Drawing.Point(109, 77);
             this.BotonMaterial.Name = "BotonMaterial";
             this.BotonMaterial.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.BotonMaterial.Size = new System.Drawing.Size(261, 67);
@@ -169,7 +150,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button BotonHerramienta;
         private System.Windows.Forms.Button BotonMaterial;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button BotonCerrarSesion;

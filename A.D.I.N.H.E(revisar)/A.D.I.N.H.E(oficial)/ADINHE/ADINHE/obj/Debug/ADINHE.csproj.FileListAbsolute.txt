@@ -127,11 +127,9 @@ C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\AD
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Almacenista.resources
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Aprobar.resources
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Comprar.resources
-C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.DetallesdeProyecto.resources
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Encargado.resources
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Proyectos.resources
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Recepcion.resources
-C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Herramienta.resources
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Herramientas.resources
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Login.resources
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Material.resources

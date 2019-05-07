@@ -51,6 +51,8 @@
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ap_proy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ElimAp = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.BElimHist = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.AprogaryH.SuspendLayout();
             this.Materiales.SuspendLayout();
@@ -95,6 +97,7 @@
             this.Materiales.TabIndex = 0;
             this.Materiales.Text = "Materiales";
             this.Materiales.UseVisualStyleBackColor = true;
+            this.Materiales.Click += new System.EventHandler(this.Materiales_Click);
             // 
             // BotonAprobar
             // 
@@ -102,7 +105,7 @@
             this.BotonAprobar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonAprobar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonAprobar.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonAprobar.Location = new System.Drawing.Point(229, 229);
+            this.BotonAprobar.Location = new System.Drawing.Point(370, 372);
             this.BotonAprobar.Name = "BotonAprobar";
             this.BotonAprobar.Size = new System.Drawing.Size(132, 49);
             this.BotonAprobar.TabIndex = 25;
@@ -118,7 +121,7 @@
             this.Entregada,
             this.Nom_Herr,
             this.Cant_Mat});
-            this.dataGridView2.Location = new System.Drawing.Point(42, 76);
+            this.dataGridView2.Location = new System.Drawing.Point(141, 81);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(544, 46);
             this.dataGridView2.TabIndex = 24;
@@ -152,7 +155,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(201, 16);
+            this.label10.Location = new System.Drawing.Point(300, 21);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(212, 25);
             this.label10.TabIndex = 23;
@@ -160,6 +163,7 @@
             // 
             // Historial
             // 
+            this.Historial.Controls.Add(this.BElimHist);
             this.Historial.Controls.Add(this.label1);
             this.Historial.Controls.Add(this.dataGridView1);
             this.Historial.Location = new System.Drawing.Point(4, 22);
@@ -186,10 +190,11 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5,
-            this.ap_proy});
-            this.dataGridView1.Location = new System.Drawing.Point(220, 71);
+            this.ap_proy,
+            this.ElimAp});
+            this.dataGridView1.Location = new System.Drawing.Point(182, 74);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(343, 45);
+            this.dataGridView1.Size = new System.Drawing.Size(444, 44);
             this.dataGridView1.TabIndex = 25;
             // 
             // panel3
@@ -262,6 +267,24 @@
             this.ap_proy.HeaderText = "Proyecto";
             this.ap_proy.Name = "ap_proy";
             // 
+            // ElimAp
+            // 
+            this.ElimAp.HeaderText = "Eliminar";
+            this.ElimAp.Name = "ElimAp";
+            // 
+            // BElimHist
+            // 
+            this.BElimHist.BackColor = System.Drawing.Color.Black;
+            this.BElimHist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BElimHist.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BElimHist.ForeColor = System.Drawing.SystemColors.Control;
+            this.BElimHist.Location = new System.Drawing.Point(349, 371);
+            this.BElimHist.Name = "BElimHist";
+            this.BElimHist.Size = new System.Drawing.Size(132, 49);
+            this.BElimHist.TabIndex = 28;
+            this.BElimHist.Text = "Eliminar";
+            this.BElimHist.UseVisualStyleBackColor = false;
+            // 
             // Aprobar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -315,5 +338,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn ap_proy;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn ElimAp;
+        private System.Windows.Forms.Button BElimHist;
     }
 }

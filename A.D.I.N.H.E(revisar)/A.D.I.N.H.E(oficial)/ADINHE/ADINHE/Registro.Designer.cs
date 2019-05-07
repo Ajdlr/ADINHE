@@ -96,21 +96,22 @@
             "Almacen"});
             this.comboBox1.Location = new System.Drawing.Point(151, 117);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(139, 21);
             this.comboBox1.TabIndex = 26;
+            this.comboBox1.Text = "Seleccione una opción";
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(151, 75);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(139, 20);
             this.textBox2.TabIndex = 25;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(151, 33);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(139, 20);
             this.textBox1.TabIndex = 24;
             // 
             // label3
