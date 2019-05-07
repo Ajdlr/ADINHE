@@ -49,8 +49,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.preparado = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.ID_Orden = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nom_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Medi_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label9 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.BotonEntregado = new System.Windows.Forms.Button();
@@ -72,13 +78,8 @@
             this.label12 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BotonRegresar = new System.Windows.Forms.Button();
-            this.preparado = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ID_Orden = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nom_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Medi_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Tmaterial = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -151,6 +152,8 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage1.Controls.Add(this.Tmaterial);
+            this.tabPage1.Controls.Add(this.label11);
             this.tabPage1.Controls.Add(this.AgregarMaterial);
             this.tabPage1.Controls.Add(this.textBox6);
             this.tabPage1.Controls.Add(this.textBox5);
@@ -216,14 +219,14 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(251, 116);
+            this.textBox2.Location = new System.Drawing.Point(251, 122);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(772, 20);
             this.textBox2.TabIndex = 7;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(251, 56);
+            this.textBox1.Location = new System.Drawing.Point(251, 24);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(772, 20);
             this.textBox1.TabIndex = 6;
@@ -272,7 +275,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(22, 111);
+            this.label2.Location = new System.Drawing.Point(22, 117);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(136, 25);
             this.label2.TabIndex = 1;
@@ -282,7 +285,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(22, 50);
+            this.label1.Location = new System.Drawing.Point(22, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(223, 25);
             this.label1.TabIndex = 0;
@@ -293,7 +296,6 @@
             this.tabPage2.BackColor = System.Drawing.Color.Transparent;
             this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.dataGridView1);
-            this.tabPage2.Controls.Add(this.dateTimePicker1);
             this.tabPage2.Controls.Add(this.label9);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -302,6 +304,19 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Preparar";
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(463, 388);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(132, 49);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Preparado";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -313,18 +328,43 @@
             this.Medi_Mat,
             this.Cant_Mat,
             this.Precio_Mat});
-            this.dataGridView1.Location = new System.Drawing.Point(206, 128);
+            this.dataGridView1.Location = new System.Drawing.Point(207, 77);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(643, 45);
             this.dataGridView1.TabIndex = 14;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // dateTimePicker1
+            // preparado
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(430, 53);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 13;
+            this.preparado.HeaderText = "Preparado";
+            this.preparado.Name = "preparado";
+            this.preparado.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.preparado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // ID_Orden
+            // 
+            this.ID_Orden.HeaderText = "ID_Orden";
+            this.ID_Orden.Name = "ID_Orden";
+            // 
+            // Nom_Mat
+            // 
+            this.Nom_Mat.HeaderText = "Nom_Mat";
+            this.Nom_Mat.Name = "Nom_Mat";
+            // 
+            // Medi_Mat
+            // 
+            this.Medi_Mat.HeaderText = "Medi_Mat";
+            this.Medi_Mat.Name = "Medi_Mat";
+            // 
+            // Cant_Mat
+            // 
+            this.Cant_Mat.HeaderText = "Cant_Mat";
+            this.Cant_Mat.Name = "Cant_Mat";
+            // 
+            // Precio_Mat
+            // 
+            this.Precio_Mat.HeaderText = "Precio_Mat";
+            this.Precio_Mat.Name = "Precio_Mat";
             // 
             // label9
             // 
@@ -429,7 +469,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(1058, 472);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Agotados";
+            this.tabPage4.Text = "Inventario";
             this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
             // dataGridView3
@@ -504,50 +544,22 @@
             this.BotonRegresar.UseVisualStyleBackColor = false;
             this.BotonRegresar.Click += new System.EventHandler(this.BotonRegresar_Click);
             // 
-            // preparado
+            // Tmaterial
             // 
-            this.preparado.HeaderText = "Preparado";
-            this.preparado.Name = "preparado";
-            this.preparado.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.preparado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Tmaterial.Location = new System.Drawing.Point(251, 71);
+            this.Tmaterial.Name = "Tmaterial";
+            this.Tmaterial.Size = new System.Drawing.Size(772, 20);
+            this.Tmaterial.TabIndex = 15;
             // 
-            // ID_Orden
+            // label11
             // 
-            this.ID_Orden.HeaderText = "ID_Orden";
-            this.ID_Orden.Name = "ID_Orden";
-            // 
-            // Nom_Mat
-            // 
-            this.Nom_Mat.HeaderText = "Nom_Mat";
-            this.Nom_Mat.Name = "Nom_Mat";
-            // 
-            // Medi_Mat
-            // 
-            this.Medi_Mat.HeaderText = "Medi_Mat";
-            this.Medi_Mat.Name = "Medi_Mat";
-            // 
-            // Cant_Mat
-            // 
-            this.Cant_Mat.HeaderText = "Cant_Mat";
-            this.Cant_Mat.Name = "Cant_Mat";
-            // 
-            // Precio_Mat
-            // 
-            this.Precio_Mat.HeaderText = "Precio_Mat";
-            this.Precio_Mat.Name = "Precio_Mat";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(463, 388);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 49);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Preparado";
-            this.button1.UseVisualStyleBackColor = false;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(22, 65);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(182, 25);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Tipo de material";
             // 
             // Almacen
             // 
@@ -604,7 +616,6 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Button BotonRegresar;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label10;
@@ -635,5 +646,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Medi_Mat;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cant_Mat;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio_Mat;
+        private System.Windows.Forms.TextBox Tmaterial;
+        private System.Windows.Forms.Label label11;
     }
 }

@@ -42,17 +42,15 @@
             this.label10 = new System.Windows.Forms.Label();
             this.Historial = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.eliminar_ap = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ap_proy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.BotonRegresar = new System.Windows.Forms.Button();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ap_proy = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.AprogaryH.SuspendLayout();
             this.Materiales.SuspendLayout();
@@ -163,7 +161,6 @@
             // Historial
             // 
             this.Historial.Controls.Add(this.label1);
-            this.Historial.Controls.Add(this.button1);
             this.Historial.Controls.Add(this.dataGridView1);
             this.Historial.Location = new System.Drawing.Point(4, 22);
             this.Historial.Name = "Historial";
@@ -183,52 +180,17 @@
             this.label1.TabIndex = 27;
             this.label1.Text = "Historial de Materiales";
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(318, 344);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 49);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "Aprobar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.eliminar_ap,
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5,
             this.ap_proy});
-            this.dataGridView1.Location = new System.Drawing.Point(150, 72);
+            this.dataGridView1.Location = new System.Drawing.Point(220, 71);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(443, 46);
+            this.dataGridView1.Size = new System.Drawing.Size(343, 45);
             this.dataGridView1.TabIndex = 25;
-            // 
-            // eliminar_ap
-            // 
-            this.eliminar_ap.HeaderText = "Eliminar material";
-            this.eliminar_ap.Name = "eliminar_ap";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.HeaderText = "Nom_Mat";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Cant_Mat";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
-            // ap_proy
-            // 
-            this.ap_proy.HeaderText = "Proyecto";
-            this.ap_proy.Name = "ap_proy";
             // 
             // panel3
             // 
@@ -285,6 +247,21 @@
             this.BotonRegresar.UseVisualStyleBackColor = false;
             this.BotonRegresar.Click += new System.EventHandler(this.BotonRegresar_Click);
             // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.HeaderText = "Nom_Mat";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.HeaderText = "Cant_Mat";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // ap_proy
+            // 
+            this.ap_proy.HeaderText = "Proyecto";
+            this.ap_proy.Name = "ap_proy";
+            // 
             // Aprobar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -334,9 +311,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TabPage Historial;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn eliminar_ap;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn ap_proy;
