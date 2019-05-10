@@ -37,7 +37,6 @@
             this.BotonMaterial = new System.Windows.Forms.Button();
             this.BotonComprar = new System.Windows.Forms.Button();
             this.BotonAprobar = new System.Windows.Forms.Button();
-            this.BotonHerramientas = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BotonCerrarSesion = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -70,10 +69,9 @@
             this.panel4.Controls.Add(this.BotonMaterial);
             this.panel4.Controls.Add(this.BotonComprar);
             this.panel4.Controls.Add(this.BotonAprobar);
-            this.panel4.Controls.Add(this.BotonHerramientas);
-            this.panel4.Location = new System.Drawing.Point(69, 116);
+            this.panel4.Location = new System.Drawing.Point(79, 165);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(557, 296);
+            this.panel4.Size = new System.Drawing.Size(557, 222);
             this.panel4.TabIndex = 12;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
@@ -83,7 +81,7 @@
             this.registroU.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.registroU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.registroU.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.registroU.Location = new System.Drawing.Point(2, 225);
+            this.registroU.Location = new System.Drawing.Point(0, 149);
             this.registroU.Name = "registroU";
             this.registroU.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.registroU.Size = new System.Drawing.Size(261, 67);
@@ -133,7 +131,7 @@
             this.BotonMaterial.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.BotonMaterial.Size = new System.Drawing.Size(261, 67);
             this.BotonMaterial.TabIndex = 5;
-            this.BotonMaterial.Text = "Material";
+            this.BotonMaterial.Text = "Solicitudes";
             this.BotonMaterial.UseVisualStyleBackColor = false;
             this.BotonMaterial.Click += new System.EventHandler(this.BotonMaterial_Click);
             // 
@@ -166,21 +164,6 @@
             this.BotonAprobar.Text = "Aprobar";
             this.BotonAprobar.UseVisualStyleBackColor = false;
             this.BotonAprobar.Click += new System.EventHandler(this.BotonAprobar_Click);
-            // 
-            // BotonHerramientas
-            // 
-            this.BotonHerramientas.BackColor = System.Drawing.Color.Transparent;
-            this.BotonHerramientas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BotonHerramientas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonHerramientas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonHerramientas.Location = new System.Drawing.Point(2, 152);
-            this.BotonHerramientas.Name = "BotonHerramientas";
-            this.BotonHerramientas.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BotonHerramientas.Size = new System.Drawing.Size(261, 67);
-            this.BotonHerramientas.TabIndex = 2;
-            this.BotonHerramientas.Text = "Herramientas";
-            this.BotonHerramientas.UseVisualStyleBackColor = false;
-            this.BotonHerramientas.Click += new System.EventHandler(this.BotonHerramientas_Click);
             // 
             // panel3
             // 
@@ -257,7 +240,6 @@
         private System.Windows.Forms.Button BotonMaterial;
         private System.Windows.Forms.Button BotonComprar;
         private System.Windows.Forms.Button BotonAprobar;
-        private System.Windows.Forms.Button BotonHerramientas;
         private System.Windows.Forms.Button BotonAlmacen;
         private System.Windows.Forms.Button BotonCerrarSesion;
         private System.Windows.Forms.Panel panel2;

@@ -74,7 +74,7 @@
             this.BotonMaterial.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.BotonMaterial.Size = new System.Drawing.Size(261, 67);
             this.BotonMaterial.TabIndex = 7;
-            this.BotonMaterial.Text = "Material";
+            this.BotonMaterial.Text = "Solicitudes";
             this.BotonMaterial.UseVisualStyleBackColor = false;
             this.BotonMaterial.Click += new System.EventHandler(this.BotonMaterial_Click);
             // 

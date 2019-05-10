@@ -140,3 +140,4 @@ C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\AD
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.CopyComplete
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.exe
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.pdb
+C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Solicitudes.resources

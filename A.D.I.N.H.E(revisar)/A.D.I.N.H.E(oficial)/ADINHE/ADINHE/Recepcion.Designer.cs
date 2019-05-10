@@ -76,8 +76,9 @@
             this.BotonHerramientas.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.BotonHerramientas.Size = new System.Drawing.Size(261, 67);
             this.BotonHerramientas.TabIndex = 12;
-            this.BotonHerramientas.Text = "Herramientas";
+            this.BotonHerramientas.Text = "Solicitudes";
             this.BotonHerramientas.UseVisualStyleBackColor = false;
+            this.BotonHerramientas.Click += new System.EventHandler(this.BotonHerramientas_Click_1);
             // 
             // BotonAlmacen
             // 

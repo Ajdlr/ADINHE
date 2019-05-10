@@ -34,31 +34,21 @@
             this.Materiales = new System.Windows.Forms.TabPage();
             this.BotonAprobar = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.AprobarM = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Entregada = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nom_Herr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label10 = new System.Windows.Forms.Label();
-            this.Historial = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.BotonRegresar = new System.Windows.Forms.Button();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ap_proy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ElimAp = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.BElimHist = new System.Windows.Forms.Button();
+            this.AprobarM = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nom_Herr = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Entregada = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.AprogaryH.SuspendLayout();
             this.Materiales.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.Historial.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -78,7 +68,6 @@
             // AprogaryH
             // 
             this.AprogaryH.Controls.Add(this.Materiales);
-            this.AprogaryH.Controls.Add(this.Historial);
             this.AprogaryH.Location = new System.Drawing.Point(205, 126);
             this.AprogaryH.Name = "AprogaryH";
             this.AprogaryH.SelectedIndex = 0;
@@ -118,38 +107,13 @@
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.AprobarM,
             this.dataGridViewTextBoxColumn1,
-            this.Entregada,
             this.Nom_Herr,
+            this.Entregada,
             this.Cant_Mat});
             this.dataGridView2.Location = new System.Drawing.Point(141, 81);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(544, 46);
+            this.dataGridView2.Size = new System.Drawing.Size(544, 56);
             this.dataGridView2.TabIndex = 24;
-            // 
-            // AprobarM
-            // 
-            this.AprobarM.HeaderText = "Aprobar";
-            this.AprobarM.Name = "AprobarM";
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID_Orden";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // Entregada
-            // 
-            this.Entregada.HeaderText = "ID_Mat";
-            this.Entregada.Name = "Entregada";
-            // 
-            // Nom_Herr
-            // 
-            this.Nom_Herr.HeaderText = "Nom_Mat";
-            this.Nom_Herr.Name = "Nom_Herr";
-            // 
-            // Cant_Mat
-            // 
-            this.Cant_Mat.HeaderText = "Cant_Mat";
-            this.Cant_Mat.Name = "Cant_Mat";
             // 
             // label10
             // 
@@ -160,42 +124,6 @@
             this.label10.Size = new System.Drawing.Size(212, 25);
             this.label10.TabIndex = 23;
             this.label10.Text = "Aprobar Materiales";
-            // 
-            // Historial
-            // 
-            this.Historial.Controls.Add(this.BElimHist);
-            this.Historial.Controls.Add(this.label1);
-            this.Historial.Controls.Add(this.dataGridView1);
-            this.Historial.Location = new System.Drawing.Point(4, 22);
-            this.Historial.Name = "Historial";
-            this.Historial.Padding = new System.Windows.Forms.Padding(3);
-            this.Historial.Size = new System.Drawing.Size(858, 447);
-            this.Historial.TabIndex = 1;
-            this.Historial.Text = "Historial";
-            this.Historial.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(273, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(249, 25);
-            this.label1.TabIndex = 27;
-            this.label1.Text = "Historial de Materiales";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.ap_proy,
-            this.ElimAp});
-            this.dataGridView1.Location = new System.Drawing.Point(182, 74);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(444, 44);
-            this.dataGridView1.TabIndex = 25;
             // 
             // panel3
             // 
@@ -252,38 +180,30 @@
             this.BotonRegresar.UseVisualStyleBackColor = false;
             this.BotonRegresar.Click += new System.EventHandler(this.BotonRegresar_Click);
             // 
-            // dataGridViewTextBoxColumn4
+            // AprobarM
             // 
-            this.dataGridViewTextBoxColumn4.HeaderText = "Nom_Mat";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.AprobarM.HeaderText = "Aprobar";
+            this.AprobarM.Name = "AprobarM";
             // 
-            // dataGridViewTextBoxColumn5
+            // dataGridViewTextBoxColumn1
             // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Cant_Mat";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             // 
-            // ap_proy
+            // Nom_Herr
             // 
-            this.ap_proy.HeaderText = "Proyecto";
-            this.ap_proy.Name = "ap_proy";
+            this.Nom_Herr.HeaderText = "Nombre del Material";
+            this.Nom_Herr.Name = "Nom_Herr";
             // 
-            // ElimAp
+            // Entregada
             // 
-            this.ElimAp.HeaderText = "Eliminar";
-            this.ElimAp.Name = "ElimAp";
+            this.Entregada.HeaderText = "Material";
+            this.Entregada.Name = "Entregada";
             // 
-            // BElimHist
+            // Cant_Mat
             // 
-            this.BElimHist.BackColor = System.Drawing.Color.Black;
-            this.BElimHist.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BElimHist.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BElimHist.ForeColor = System.Drawing.SystemColors.Control;
-            this.BElimHist.Location = new System.Drawing.Point(349, 371);
-            this.BElimHist.Name = "BElimHist";
-            this.BElimHist.Size = new System.Drawing.Size(132, 49);
-            this.BElimHist.TabIndex = 28;
-            this.BElimHist.Text = "Eliminar";
-            this.BElimHist.UseVisualStyleBackColor = false;
+            this.Cant_Mat.HeaderText = "Cantidad";
+            this.Cant_Mat.Name = "Cant_Mat";
             // 
             // Aprobar
             // 
@@ -304,9 +224,6 @@
             this.Materiales.ResumeLayout(false);
             this.Materiales.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            this.Historial.ResumeLayout(false);
-            this.Historial.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -326,19 +243,11 @@
         private System.Windows.Forms.TabPage Materiales;
         private System.Windows.Forms.Button BotonAprobar;
         private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DataGridViewCheckBoxColumn AprobarM;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Entregada;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nom_Herr;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Entregada;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cant_Mat;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TabPage Historial;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ap_proy;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn ElimAp;
-        private System.Windows.Forms.Button BElimHist;
     }
 }

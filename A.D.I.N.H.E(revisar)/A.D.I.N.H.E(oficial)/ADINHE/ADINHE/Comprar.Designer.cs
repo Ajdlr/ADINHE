@@ -39,6 +39,7 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.BotonComprar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             this.checkcompra = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.ID_Orden = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nom_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,7 +47,6 @@
             this.Medi_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -172,45 +172,8 @@
             this.Precio_Mat});
             this.dataGridView1.Location = new System.Drawing.Point(99, 83);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(743, 46);
+            this.dataGridView1.Size = new System.Drawing.Size(743, 59);
             this.dataGridView1.TabIndex = 16;
-            // 
-            // checkcompra
-            // 
-            this.checkcompra.HeaderText = "Comprar";
-            this.checkcompra.Name = "checkcompra";
-            this.checkcompra.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.checkcompra.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // ID_Orden
-            // 
-            this.ID_Orden.HeaderText = "ID_Mat";
-            this.ID_Orden.Name = "ID_Orden";
-            // 
-            // Nom_Mat
-            // 
-            this.Nom_Mat.HeaderText = "Nom_Mat";
-            this.Nom_Mat.Name = "Nom_Mat";
-            // 
-            // Desc_Mat
-            // 
-            this.Desc_Mat.HeaderText = "Desc_Mat";
-            this.Desc_Mat.Name = "Desc_Mat";
-            // 
-            // Medi_Mat
-            // 
-            this.Medi_Mat.HeaderText = "Medi_Mat";
-            this.Medi_Mat.Name = "Medi_Mat";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "Cant_Mat";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // Precio_Mat
-            // 
-            this.Precio_Mat.HeaderText = "Precio_Mat";
-            this.Precio_Mat.Name = "Precio_Mat";
             // 
             // label1
             // 
@@ -221,6 +184,43 @@
             this.label1.Size = new System.Drawing.Size(249, 25);
             this.label1.TabIndex = 15;
             this.label1.Text = "Material sin existencia";
+            // 
+            // checkcompra
+            // 
+            this.checkcompra.HeaderText = "Comprar";
+            this.checkcompra.Name = "checkcompra";
+            this.checkcompra.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.checkcompra.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // ID_Orden
+            // 
+            this.ID_Orden.HeaderText = "ID";
+            this.ID_Orden.Name = "ID_Orden";
+            // 
+            // Nom_Mat
+            // 
+            this.Nom_Mat.HeaderText = "Nombre del Material";
+            this.Nom_Mat.Name = "Nom_Mat";
+            // 
+            // Desc_Mat
+            // 
+            this.Desc_Mat.HeaderText = "Material";
+            this.Desc_Mat.Name = "Desc_Mat";
+            // 
+            // Medi_Mat
+            // 
+            this.Medi_Mat.HeaderText = "Medida del Material";
+            this.Medi_Mat.Name = "Medi_Mat";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.HeaderText = "Cantidad de Material";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // Precio_Mat
+            // 
+            this.Precio_Mat.HeaderText = "Precio del Material";
+            this.Precio_Mat.Name = "Precio_Mat";
             // 
             // Comprar
             // 

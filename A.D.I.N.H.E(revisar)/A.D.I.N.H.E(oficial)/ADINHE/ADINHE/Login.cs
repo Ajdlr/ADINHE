@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace ADINHE
 {
@@ -16,6 +17,11 @@ namespace ADINHE
         public Login()
         {
             InitializeComponent();
+        }
+
+        internal static SqlConnection LoginD()
+        {
+            throw new NotImplementedException();
         }
 
         Entidades.Login obje = new Entidades.Login();

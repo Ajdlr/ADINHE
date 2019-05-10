@@ -14,7 +14,7 @@ namespace Data
     {
         SqlConnection cn = new SqlConnection(ConfigurationManager.ConnectionStrings["sql"].ConnectionString);
 
-        public DataTable LoginD(Entidades.Login obje)
+        public static DataTable LoginD(Entidades.Login obje)
         {
             SqlCommand cmd = new SqlCommand("dbo.splogin", cn);
             cmd.CommandType = CommandType.StoredProcedure;

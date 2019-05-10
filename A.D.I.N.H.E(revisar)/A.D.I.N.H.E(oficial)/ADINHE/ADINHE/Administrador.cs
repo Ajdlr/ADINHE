@@ -22,13 +22,6 @@ namespace ADINHE
 
         }
 
-        private void BotonHerramientas_Click(object sender, EventArgs e)
-        {
-            Herramientas Herramientas1 = new Herramientas();
-            this.Hide();
-            Herramientas1.Show();
-        }
-
         private void BotonAprobar_Click(object sender, EventArgs e)
         {
             Aprobar Aprobar1 = new Aprobar();
@@ -45,7 +38,7 @@ namespace ADINHE
 
         private void BotonMaterial_Click(object sender, EventArgs e)
         {
-            Material Material1 = new Material();
+            Solicitudes Material1 = new Solicitudes();
             this.Hide();
             Material1.Show();
         }

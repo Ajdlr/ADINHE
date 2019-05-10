@@ -36,7 +36,6 @@
             this.BotonCerrarSesion = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.BotonHerramientas = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -56,12 +55,11 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.BotonHerramientas);
             this.panel4.Controls.Add(this.Botoncomprar);
             this.panel4.Controls.Add(this.BotonAlmacen);
-            this.panel4.Location = new System.Drawing.Point(33, 108);
+            this.panel4.Location = new System.Drawing.Point(32, 133);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(467, 245);
+            this.panel4.Size = new System.Drawing.Size(467, 164);
             this.panel4.TabIndex = 15;
             // 
             // Botoncomprar
@@ -148,22 +146,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Almacenista";
             // 
-            // BotonHerramientas
-            // 
-            this.BotonHerramientas.BackColor = System.Drawing.Color.Transparent;
-            this.BotonHerramientas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BotonHerramientas.FlatAppearance.BorderSize = 0;
-            this.BotonHerramientas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonHerramientas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonHerramientas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(85)))), ((int)(((byte)(46)))));
-            this.BotonHerramientas.Location = new System.Drawing.Point(113, 158);
-            this.BotonHerramientas.Name = "BotonHerramientas";
-            this.BotonHerramientas.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BotonHerramientas.Size = new System.Drawing.Size(261, 67);
-            this.BotonHerramientas.TabIndex = 13;
-            this.BotonHerramientas.Text = "Herramientas";
-            this.BotonHerramientas.UseVisualStyleBackColor = false;
-            // 
             // Almacenista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -191,6 +173,5 @@
         private System.Windows.Forms.Button BotonCerrarSesion;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button BotonHerramientas;
     }
 }

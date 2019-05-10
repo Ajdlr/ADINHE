@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registro));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.BotonRegis = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -61,10 +61,10 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.BotonRegis);
+            this.panel4.Controls.Add(this.btnRegistrar);
             this.panel4.Controls.Add(this.comboBox1);
-            this.panel4.Controls.Add(this.textBox2);
-            this.panel4.Controls.Add(this.textBox1);
+            this.panel4.Controls.Add(this.txtContraseña);
+            this.panel4.Controls.Add(this.txtUsuario);
             this.panel4.Controls.Add(this.label3);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label1);
@@ -73,18 +73,19 @@
             this.panel4.Size = new System.Drawing.Size(400, 281);
             this.panel4.TabIndex = 35;
             // 
-            // BotonRegis
+            // btnRegistrar
             // 
-            this.BotonRegis.BackColor = System.Drawing.Color.Black;
-            this.BotonRegis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonRegis.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonRegis.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonRegis.Location = new System.Drawing.Point(140, 210);
-            this.BotonRegis.Name = "BotonRegis";
-            this.BotonRegis.Size = new System.Drawing.Size(132, 49);
-            this.BotonRegis.TabIndex = 33;
-            this.BotonRegis.Text = "Registrar";
-            this.BotonRegis.UseVisualStyleBackColor = false;
+            this.btnRegistrar.BackColor = System.Drawing.Color.Black;
+            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnRegistrar.Location = new System.Drawing.Point(140, 210);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(132, 49);
+            this.btnRegistrar.TabIndex = 33;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.BotonRegis_Click);
             // 
             // comboBox1
             // 
@@ -100,19 +101,19 @@
             this.comboBox1.TabIndex = 26;
             this.comboBox1.Text = "Seleccione una opción";
             // 
-            // textBox2
+            // txtContraseña
             // 
-            this.textBox2.Location = new System.Drawing.Point(151, 75);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(139, 20);
-            this.textBox2.TabIndex = 25;
+            this.txtContraseña.Location = new System.Drawing.Point(151, 75);
+            this.txtContraseña.Name = "txtContraseña";
+            this.txtContraseña.Size = new System.Drawing.Size(139, 20);
+            this.txtContraseña.TabIndex = 25;
             // 
-            // textBox1
+            // txtUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(151, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 20);
-            this.textBox1.TabIndex = 24;
+            this.txtUsuario.Location = new System.Drawing.Point(151, 33);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(139, 20);
+            this.txtUsuario.TabIndex = 24;
             // 
             // label3
             // 
@@ -215,10 +216,10 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button BotonRegis;
+        private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

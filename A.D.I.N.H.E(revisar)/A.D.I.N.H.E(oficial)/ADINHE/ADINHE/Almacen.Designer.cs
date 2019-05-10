@@ -32,7 +32,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.Tmaterial = new System.Windows.Forms.TextBox();
@@ -58,7 +57,6 @@
             this.Nom_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Medi_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label9 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.BotonEntregado = new System.Windows.Forms.Button();
@@ -78,6 +76,16 @@
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label12 = new System.Windows.Forms.Label();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EncHerr = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FSalida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FRegreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.entregadas = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.label13 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BotonRegresar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -90,6 +98,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -108,7 +118,6 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.label7);
             this.panel2.Location = new System.Drawing.Point(2, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1163, 70);
@@ -120,22 +129,11 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(559, 39);
+            this.label8.Location = new System.Drawing.Point(558, 26);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(113, 29);
             this.label8.TabIndex = 11;
             this.label8.Text = "Almacén";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(517, 8);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(194, 31);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Administrador";
             // 
             // tabControl1
             // 
@@ -143,6 +141,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Location = new System.Drawing.Point(49, 102);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -343,11 +342,10 @@
             this.ID_Orden,
             this.Nom_Mat,
             this.Medi_Mat,
-            this.Cant_Mat,
-            this.Precio_Mat});
-            this.dataGridView1.Location = new System.Drawing.Point(207, 77);
+            this.Cant_Mat});
+            this.dataGridView1.Location = new System.Drawing.Point(253, 76);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(643, 45);
+            this.dataGridView1.Size = new System.Drawing.Size(544, 57);
             this.dataGridView1.TabIndex = 14;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -360,28 +358,23 @@
             // 
             // ID_Orden
             // 
-            this.ID_Orden.HeaderText = "ID_Orden";
+            this.ID_Orden.HeaderText = "ID";
             this.ID_Orden.Name = "ID_Orden";
             // 
             // Nom_Mat
             // 
-            this.Nom_Mat.HeaderText = "Nom_Mat";
+            this.Nom_Mat.HeaderText = "Nombre Material";
             this.Nom_Mat.Name = "Nom_Mat";
             // 
             // Medi_Mat
             // 
-            this.Medi_Mat.HeaderText = "Medi_Mat";
+            this.Medi_Mat.HeaderText = "Medida del Material";
             this.Medi_Mat.Name = "Medi_Mat";
             // 
             // Cant_Mat
             // 
-            this.Cant_Mat.HeaderText = "Cant_Mat";
+            this.Cant_Mat.HeaderText = "Cantidad de material";
             this.Cant_Mat.Name = "Cant_Mat";
-            // 
-            // Precio_Mat
-            // 
-            this.Precio_Mat.HeaderText = "Precio_Mat";
-            this.Precio_Mat.Name = "Precio_Mat";
             // 
             // label9
             // 
@@ -498,34 +491,34 @@
             this.Desc_Mat,
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
-            this.dataGridView3.Location = new System.Drawing.Point(277, 65);
+            this.dataGridView3.Location = new System.Drawing.Point(278, 65);
             this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(545, 47);
+            this.dataGridView3.Size = new System.Drawing.Size(544, 61);
             this.dataGridView3.TabIndex = 15;
             // 
             // dataGridViewTextBoxColumn2
             // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "ID_Mat";
+            this.dataGridViewTextBoxColumn2.HeaderText = "ID";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // dataGridViewTextBoxColumn3
             // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "Nom_Mat";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Nombre de Material";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
             // Desc_Mat
             // 
-            this.Desc_Mat.HeaderText = "Desc_Mat";
+            this.Desc_Mat.HeaderText = "Material";
             this.Desc_Mat.Name = "Desc_Mat";
             // 
             // dataGridViewTextBoxColumn4
             // 
-            this.dataGridViewTextBoxColumn4.HeaderText = "Medi_Mat";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Medida de Material";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
             // dataGridViewTextBoxColumn5
             // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Cant_Mat";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Cantidad de Material";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             // 
             // label12
@@ -534,9 +527,81 @@
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(437, 3);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(189, 25);
+            this.label12.Size = new System.Drawing.Size(116, 25);
             this.label12.TabIndex = 14;
-            this.label12.Text = "Material agotado";
+            this.label12.Text = "Inventario";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.dataGridView4);
+            this.tabPage5.Controls.Add(this.label13);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(1058, 472);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Herramientas";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.EncHerr,
+            this.FSalida,
+            this.FRegreso,
+            this.entregadas});
+            this.dataGridView4.Location = new System.Drawing.Point(146, 53);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.Size = new System.Drawing.Size(744, 47);
+            this.dataGridView4.TabIndex = 18;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.HeaderText = "Herramienta";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.HeaderText = "Proyecto";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.HeaderText = "Estado";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            // 
+            // EncHerr
+            // 
+            this.EncHerr.HeaderText = "Encargado";
+            this.EncHerr.Name = "EncHerr";
+            // 
+            // FSalida
+            // 
+            this.FSalida.HeaderText = "Salida";
+            this.FSalida.Name = "FSalida";
+            // 
+            // FRegreso
+            // 
+            this.FRegreso.HeaderText = "Entrega";
+            this.FRegreso.Name = "FRegreso";
+            // 
+            // entregadas
+            // 
+            this.entregadas.HeaderText = "Entregadas";
+            this.entregadas.Name = "entregadas";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(376, 10);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(295, 25);
+            this.label13.TabIndex = 17;
+            this.label13.Text = "Herramientas en proyectos";
             // 
             // panel3
             // 
@@ -590,6 +655,9 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -599,7 +667,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TextBox textBox6;
@@ -622,11 +689,6 @@
         private System.Windows.Forms.Button BotonEntregado;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Desc_Mat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
@@ -640,13 +702,27 @@
         private System.Windows.Forms.Button AgregarMaterial;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox Tmaterial;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EncHerr;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FSalida;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FRegreso;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn entregadas;
+        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.DataGridViewCheckBoxColumn preparado;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_Orden;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nom_Mat;
         private System.Windows.Forms.DataGridViewTextBoxColumn Medi_Mat;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cant_Mat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio_Mat;
-        private System.Windows.Forms.TextBox Tmaterial;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Desc_Mat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
     }
 }

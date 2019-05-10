@@ -18,7 +18,7 @@ namespace ADINHE
         }
         private void BotonMaterial_Click(object sender, EventArgs e)
         {
-            Material Material1 = new Material();
+            Solicitudes Material1 = new Solicitudes();
             this.Hide();
             Material1.Show();
         }
