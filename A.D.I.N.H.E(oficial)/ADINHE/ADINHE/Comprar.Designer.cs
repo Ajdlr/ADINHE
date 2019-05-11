@@ -37,7 +37,6 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.BotonComprar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.AprobarM = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -121,7 +120,6 @@
             this.tabPage2.BackColor = System.Drawing.Color.Transparent;
             this.tabPage2.Controls.Add(this.dataGridView2);
             this.tabPage2.Controls.Add(this.BotonComprar);
-            this.tabPage2.Controls.Add(this.label1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -144,16 +142,6 @@
             this.BotonComprar.UseVisualStyleBackColor = false;
             this.BotonComprar.Click += new System.EventHandler(this.BotonComprar_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(432, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(249, 25);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Material sin existencia";
-            // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -163,14 +151,14 @@
             this.Nom_Herr,
             this.Entregada,
             this.Cant_Mat});
-            this.dataGridView2.Location = new System.Drawing.Point(282, 60);
+            this.dataGridView2.Location = new System.Drawing.Point(283, 22);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(544, 56);
+            this.dataGridView2.Size = new System.Drawing.Size(544, 46);
             this.dataGridView2.TabIndex = 25;
             // 
             // AprobarM
             // 
-            this.AprobarM.HeaderText = "Aprobar";
+            this.AprobarM.HeaderText = "Comprado";
             this.AprobarM.Name = "AprobarM";
             // 
             // dataGridViewTextBoxColumn1
@@ -180,12 +168,12 @@
             // 
             // Nom_Herr
             // 
-            this.Nom_Herr.HeaderText = "Nombre del Material";
+            this.Nom_Herr.HeaderText = "Nombre";
             this.Nom_Herr.Name = "Nom_Herr";
             // 
             // Entregada
             // 
-            this.Entregada.HeaderText = "Material";
+            this.Entregada.HeaderText = "Tipo";
             this.Entregada.Name = "Entregada";
             // 
             // Cant_Mat
@@ -212,7 +200,6 @@
             this.panel2.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
@@ -225,7 +212,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button BotonComprar;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;

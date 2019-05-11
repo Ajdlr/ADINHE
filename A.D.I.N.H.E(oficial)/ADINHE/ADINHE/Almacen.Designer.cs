@@ -48,11 +48,6 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.preparado = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ID_Orden = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nom_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Medi_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label9 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
@@ -64,27 +59,35 @@
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EncHerr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FSalida = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FRegreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.entregadas = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.label13 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.BotonRegresar = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.buttonsolicitar = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.buttonsolicitar = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.BotonRegresar = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EncHerr = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FSalida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FRegreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.entregadas = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.preparado = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.ID_Orden = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nom_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Materialp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Medi_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -95,8 +98,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.tabPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
-            this.panel3.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -133,8 +136,8 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage3);
@@ -147,6 +150,9 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage1.Controls.Add(this.label17);
+            this.tabPage1.Controls.Add(this.textBox7);
+            this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Controls.Add(this.Tmaterial);
             this.tabPage1.Controls.Add(this.label11);
             this.tabPage1.Controls.Add(this.AgregarMaterial);
@@ -168,7 +174,7 @@
             // 
             // Tmaterial
             // 
-            this.Tmaterial.Location = new System.Drawing.Point(251, 71);
+            this.Tmaterial.Location = new System.Drawing.Point(243, 134);
             this.Tmaterial.Name = "Tmaterial";
             this.Tmaterial.Size = new System.Drawing.Size(772, 20);
             this.Tmaterial.TabIndex = 15;
@@ -177,7 +183,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(22, 65);
+            this.label11.Location = new System.Drawing.Point(14, 128);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(65, 25);
             this.label11.TabIndex = 14;
@@ -189,7 +195,7 @@
             this.AgregarMaterial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AgregarMaterial.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AgregarMaterial.ForeColor = System.Drawing.SystemColors.Control;
-            this.AgregarMaterial.Location = new System.Drawing.Point(445, 430);
+            this.AgregarMaterial.Location = new System.Drawing.Point(489, 430);
             this.AgregarMaterial.Name = "AgregarMaterial";
             this.AgregarMaterial.Size = new System.Drawing.Size(216, 36);
             this.AgregarMaterial.TabIndex = 13;
@@ -199,28 +205,28 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(251, 240);
+            this.textBox6.Location = new System.Drawing.Point(243, 338);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(772, 20);
             this.textBox6.TabIndex = 11;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(251, 174);
+            this.textBox5.Location = new System.Drawing.Point(243, 237);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(772, 20);
             this.textBox5.TabIndex = 10;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(251, 121);
+            this.textBox3.Location = new System.Drawing.Point(243, 184);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(772, 20);
             this.textBox3.TabIndex = 8;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(251, 24);
+            this.textBox1.Location = new System.Drawing.Point(243, 87);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(772, 20);
             this.textBox1.TabIndex = 6;
@@ -229,7 +235,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(22, 234);
+            this.label6.Location = new System.Drawing.Point(14, 338);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 25);
             this.label6.TabIndex = 5;
@@ -239,7 +245,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(22, 168);
+            this.label5.Location = new System.Drawing.Point(14, 231);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(106, 25);
             this.label5.TabIndex = 4;
@@ -249,7 +255,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(22, 116);
+            this.label3.Location = new System.Drawing.Point(14, 179);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 25);
             this.label3.TabIndex = 2;
@@ -259,7 +265,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(22, 18);
+            this.label1.Location = new System.Drawing.Point(14, 81);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 25);
             this.label1.TabIndex = 0;
@@ -299,40 +305,14 @@
             this.preparado,
             this.ID_Orden,
             this.Nom_Mat,
+            this.Materialp,
             this.Medi_Mat,
             this.Cant_Mat});
             this.dataGridView1.Location = new System.Drawing.Point(253, 76);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(544, 57);
+            this.dataGridView1.Size = new System.Drawing.Size(643, 47);
             this.dataGridView1.TabIndex = 14;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // preparado
-            // 
-            this.preparado.HeaderText = "Preparado";
-            this.preparado.Name = "preparado";
-            this.preparado.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.preparado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // ID_Orden
-            // 
-            this.ID_Orden.HeaderText = "ID";
-            this.ID_Orden.Name = "ID_Orden";
-            // 
-            // Nom_Mat
-            // 
-            this.Nom_Mat.HeaderText = "Nombre Material";
-            this.Nom_Mat.Name = "Nom_Mat";
-            // 
-            // Medi_Mat
-            // 
-            this.Medi_Mat.HeaderText = "Medida del Material";
-            this.Medi_Mat.Name = "Medi_Mat";
-            // 
-            // Cant_Mat
-            // 
-            this.Cant_Mat.HeaderText = "Cantidad de material";
-            this.Cant_Mat.Name = "Cant_Mat";
             // 
             // label9
             // 
@@ -423,50 +403,14 @@
             this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
             this.EncHerr,
             this.FSalida,
             this.FRegreso,
             this.entregadas});
-            this.dataGridView4.Location = new System.Drawing.Point(146, 53);
+            this.dataGridView4.Location = new System.Drawing.Point(224, 61);
             this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(744, 47);
+            this.dataGridView4.Size = new System.Drawing.Size(644, 47);
             this.dataGridView4.TabIndex = 18;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Herramienta";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.HeaderText = "Proyecto";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.HeaderText = "Estado";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            // 
-            // EncHerr
-            // 
-            this.EncHerr.HeaderText = "Encargado";
-            this.EncHerr.Name = "EncHerr";
-            // 
-            // FSalida
-            // 
-            this.FSalida.HeaderText = "Salida";
-            this.FSalida.Name = "FSalida";
-            // 
-            // FRegreso
-            // 
-            this.FRegreso.HeaderText = "Entrega";
-            this.FRegreso.Name = "FRegreso";
-            // 
-            // entregadas
-            // 
-            this.entregadas.HeaderText = "Entregadas";
-            this.entregadas.Name = "entregadas";
             // 
             // label13
             // 
@@ -477,29 +421,6 @@
             this.label13.Size = new System.Drawing.Size(295, 25);
             this.label13.TabIndex = 17;
             this.label13.Text = "Herramientas en proyectos";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.BotonRegresar);
-            this.panel3.Location = new System.Drawing.Point(3, 631);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1162, 52);
-            this.panel3.TabIndex = 14;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // BotonRegresar
-            // 
-            this.BotonRegresar.BackColor = System.Drawing.Color.Black;
-            this.BotonRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonRegresar.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonRegresar.Location = new System.Drawing.Point(1030, 0);
-            this.BotonRegresar.Name = "BotonRegresar";
-            this.BotonRegresar.Size = new System.Drawing.Size(132, 49);
-            this.BotonRegresar.TabIndex = 12;
-            this.BotonRegresar.Text = "Regresar";
-            this.BotonRegresar.UseVisualStyleBackColor = false;
-            this.BotonRegresar.Click += new System.EventHandler(this.BotonRegresar_Click);
             // 
             // tabPage3
             // 
@@ -520,6 +441,54 @@
             this.tabPage3.Text = "Solicitar";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(319, 224);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(614, 21);
+            this.comboBox3.TabIndex = 52;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(319, 155);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(614, 21);
+            this.comboBox2.TabIndex = 51;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(319, 93);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(614, 21);
+            this.comboBox1.TabIndex = 50;
+            // 
+            // buttonsolicitar
+            // 
+            this.buttonsolicitar.BackColor = System.Drawing.Color.Black;
+            this.buttonsolicitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonsolicitar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonsolicitar.ForeColor = System.Drawing.SystemColors.Control;
+            this.buttonsolicitar.Location = new System.Drawing.Point(634, 420);
+            this.buttonsolicitar.Name = "buttonsolicitar";
+            this.buttonsolicitar.Size = new System.Drawing.Size(132, 49);
+            this.buttonsolicitar.TabIndex = 49;
+            this.buttonsolicitar.Text = "Solicitar";
+            this.buttonsolicitar.UseVisualStyleBackColor = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(507, 18);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(295, 29);
+            this.label14.TabIndex = 48;
+            this.label14.Text = "Solicitud para inventario";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -532,7 +501,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(319, 297);
+            this.textBox2.Location = new System.Drawing.Point(319, 290);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(614, 20);
             this.textBox2.TabIndex = 44;
@@ -541,7 +510,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(89, 292);
+            this.label4.Location = new System.Drawing.Point(89, 285);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 25);
             this.label4.TabIndex = 43;
@@ -567,53 +536,118 @@
             this.label10.TabIndex = 42;
             this.label10.Text = "Medida";
             // 
-            // label14
+            // panel3
             // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(507, 18);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(295, 29);
-            this.label14.TabIndex = 48;
-            this.label14.Text = "Solicitud para inventario";
+            this.panel3.Controls.Add(this.BotonRegresar);
+            this.panel3.Location = new System.Drawing.Point(3, 631);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1162, 52);
+            this.panel3.TabIndex = 14;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // buttonsolicitar
+            // BotonRegresar
             // 
-            this.buttonsolicitar.BackColor = System.Drawing.Color.Black;
-            this.buttonsolicitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonsolicitar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonsolicitar.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonsolicitar.Location = new System.Drawing.Point(634, 420);
-            this.buttonsolicitar.Name = "buttonsolicitar";
-            this.buttonsolicitar.Size = new System.Drawing.Size(132, 49);
-            this.buttonsolicitar.TabIndex = 49;
-            this.buttonsolicitar.Text = "Solicitar";
-            this.buttonsolicitar.UseVisualStyleBackColor = false;
+            this.BotonRegresar.BackColor = System.Drawing.Color.Black;
+            this.BotonRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BotonRegresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonRegresar.ForeColor = System.Drawing.SystemColors.Control;
+            this.BotonRegresar.Location = new System.Drawing.Point(1030, 0);
+            this.BotonRegresar.Name = "BotonRegresar";
+            this.BotonRegresar.Size = new System.Drawing.Size(132, 49);
+            this.BotonRegresar.TabIndex = 12;
+            this.BotonRegresar.Text = "Regresar";
+            this.BotonRegresar.UseVisualStyleBackColor = false;
+            this.BotonRegresar.Click += new System.EventHandler(this.BotonRegresar_Click);
             // 
-            // comboBox1
+            // textBox7
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(319, 93);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(614, 21);
-            this.comboBox1.TabIndex = 50;
+            this.textBox7.Location = new System.Drawing.Point(243, 291);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(614, 20);
+            this.textBox7.TabIndex = 56;
             // 
-            // comboBox2
+            // label16
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(319, 155);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(614, 21);
-            this.comboBox2.TabIndex = 51;
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(14, 291);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(136, 25);
+            this.label16.TabIndex = 55;
+            this.label16.Text = "Descripcion";
             // 
-            // comboBox3
+            // label17
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(319, 224);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(614, 21);
-            this.comboBox3.TabIndex = 52;
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(457, 21);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(248, 29);
+            this.label17.TabIndex = 57;
+            this.label17.Text = "Agregar a inventario";
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.HeaderText = "Herramienta";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.HeaderText = "Proyecto";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // EncHerr
+            // 
+            this.EncHerr.HeaderText = "Encargado";
+            this.EncHerr.Name = "EncHerr";
+            // 
+            // FSalida
+            // 
+            this.FSalida.HeaderText = "Salida";
+            this.FSalida.Name = "FSalida";
+            // 
+            // FRegreso
+            // 
+            this.FRegreso.HeaderText = "Entrega";
+            this.FRegreso.Name = "FRegreso";
+            // 
+            // entregadas
+            // 
+            this.entregadas.HeaderText = "Entregadas";
+            this.entregadas.Name = "entregadas";
+            // 
+            // preparado
+            // 
+            this.preparado.HeaderText = "Preparado";
+            this.preparado.Name = "preparado";
+            this.preparado.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.preparado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // ID_Orden
+            // 
+            this.ID_Orden.HeaderText = "ID";
+            this.ID_Orden.Name = "ID_Orden";
+            // 
+            // Nom_Mat
+            // 
+            this.Nom_Mat.HeaderText = "Nombre";
+            this.Nom_Mat.Name = "Nom_Mat";
+            // 
+            // Materialp
+            // 
+            this.Materialp.HeaderText = "Material";
+            this.Materialp.Name = "Materialp";
+            // 
+            // Medi_Mat
+            // 
+            this.Medi_Mat.HeaderText = "Medida";
+            this.Medi_Mat.Name = "Medi_Mat";
+            // 
+            // Cant_Mat
+            // 
+            this.Cant_Mat.HeaderText = "Cantidad ";
+            this.Cant_Mat.Name = "Cant_Mat";
             // 
             // Almacen
             // 
@@ -644,9 +678,9 @@
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
-            this.panel3.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -680,19 +714,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.DataGridView dataGridView4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn EncHerr;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FSalida;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FRegreso;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn entregadas;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn preparado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID_Orden;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nom_Mat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Medi_Mat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cant_Mat;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Desc_Mat;
@@ -709,5 +731,20 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EncHerr;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FSalida;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FRegreso;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn entregadas;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn preparado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID_Orden;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nom_Mat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Materialp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Medi_Mat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cant_Mat;
     }
 }

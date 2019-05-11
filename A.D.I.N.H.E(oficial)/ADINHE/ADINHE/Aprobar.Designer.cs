@@ -34,16 +34,16 @@
             this.Materiales = new System.Windows.Forms.TabPage();
             this.BotonAprobar = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.AprobarM = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nom_Herr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Entregada = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label10 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.BotonRegresar = new System.Windows.Forms.Button();
+            this.AprobarM = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nom_Herr = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Entregada = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.AprogaryH.SuspendLayout();
             this.Materiales.SuspendLayout();
@@ -109,45 +109,21 @@
             this.Nom_Herr,
             this.Entregada,
             this.Cant_Mat});
-            this.dataGridView2.Location = new System.Drawing.Point(141, 81);
+            this.dataGridView2.Location = new System.Drawing.Point(130, 81);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(544, 56);
+            this.dataGridView2.Size = new System.Drawing.Size(544, 46);
             this.dataGridView2.TabIndex = 24;
-            // 
-            // AprobarM
-            // 
-            this.AprobarM.HeaderText = "Aprobar";
-            this.AprobarM.Name = "AprobarM";
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // Nom_Herr
-            // 
-            this.Nom_Herr.HeaderText = "Nombre del Material";
-            this.Nom_Herr.Name = "Nom_Herr";
-            // 
-            // Entregada
-            // 
-            this.Entregada.HeaderText = "Material";
-            this.Entregada.Name = "Entregada";
-            // 
-            // Cant_Mat
-            // 
-            this.Cant_Mat.HeaderText = "Cantidad";
-            this.Cant_Mat.Name = "Cant_Mat";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(300, 21);
+            this.label10.Location = new System.Drawing.Point(345, 14);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(212, 25);
+            this.label10.Size = new System.Drawing.Size(95, 25);
             this.label10.TabIndex = 23;
-            this.label10.Text = "Aprobar Materiales";
+            this.label10.Text = "Aprobar";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // panel3
             // 
@@ -191,6 +167,31 @@
             this.BotonRegresar.Text = "Regresar";
             this.BotonRegresar.UseVisualStyleBackColor = false;
             this.BotonRegresar.Click += new System.EventHandler(this.BotonRegresar_Click);
+            // 
+            // AprobarM
+            // 
+            this.AprobarM.HeaderText = "Aprobar";
+            this.AprobarM.Name = "AprobarM";
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // Nom_Herr
+            // 
+            this.Nom_Herr.HeaderText = "Nombre";
+            this.Nom_Herr.Name = "Nom_Herr";
+            // 
+            // Entregada
+            // 
+            this.Entregada.HeaderText = "Tipo";
+            this.Entregada.Name = "Entregada";
+            // 
+            // Cant_Mat
+            // 
+            this.Cant_Mat.HeaderText = "Cantidad";
+            this.Cant_Mat.Name = "Cant_Mat";
             // 
             // Aprobar
             // 
