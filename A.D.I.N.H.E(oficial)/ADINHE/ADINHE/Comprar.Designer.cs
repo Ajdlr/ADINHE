@@ -37,21 +37,19 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.BotonComprar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.checkcompra = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ID_Orden = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nom_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Desc_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Medi_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.AprobarM = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nom_Herr = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Entregada = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -121,8 +119,8 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage2.Controls.Add(this.dataGridView2);
             this.tabPage2.Controls.Add(this.BotonComprar);
-            this.tabPage2.Controls.Add(this.dataGridView1);
             this.tabPage2.Controls.Add(this.label1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -146,59 +144,6 @@
             this.BotonComprar.UseVisualStyleBackColor = false;
             this.BotonComprar.Click += new System.EventHandler(this.BotonComprar_Click);
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.checkcompra,
-            this.ID_Orden,
-            this.Nom_Mat,
-            this.Desc_Mat,
-            this.Medi_Mat,
-            this.dataGridViewTextBoxColumn2,
-            this.Precio_Mat});
-            this.dataGridView1.Location = new System.Drawing.Point(99, 83);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(743, 59);
-            this.dataGridView1.TabIndex = 16;
-            // 
-            // checkcompra
-            // 
-            this.checkcompra.HeaderText = "Comprar";
-            this.checkcompra.Name = "checkcompra";
-            this.checkcompra.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.checkcompra.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // ID_Orden
-            // 
-            this.ID_Orden.HeaderText = "ID";
-            this.ID_Orden.Name = "ID_Orden";
-            // 
-            // Nom_Mat
-            // 
-            this.Nom_Mat.HeaderText = "Nombre del Material";
-            this.Nom_Mat.Name = "Nom_Mat";
-            // 
-            // Desc_Mat
-            // 
-            this.Desc_Mat.HeaderText = "Material";
-            this.Desc_Mat.Name = "Desc_Mat";
-            // 
-            // Medi_Mat
-            // 
-            this.Medi_Mat.HeaderText = "Medida del Material";
-            this.Medi_Mat.Name = "Medi_Mat";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "Cantidad de Material";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // Precio_Mat
-            // 
-            this.Precio_Mat.HeaderText = "Precio del Material";
-            this.Precio_Mat.Name = "Precio_Mat";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -208,6 +153,45 @@
             this.label1.Size = new System.Drawing.Size(249, 25);
             this.label1.TabIndex = 15;
             this.label1.Text = "Material sin existencia";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.AprobarM,
+            this.dataGridViewTextBoxColumn1,
+            this.Nom_Herr,
+            this.Entregada,
+            this.Cant_Mat});
+            this.dataGridView2.Location = new System.Drawing.Point(282, 60);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(544, 56);
+            this.dataGridView2.TabIndex = 25;
+            // 
+            // AprobarM
+            // 
+            this.AprobarM.HeaderText = "Aprobar";
+            this.AprobarM.Name = "AprobarM";
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // Nom_Herr
+            // 
+            this.Nom_Herr.HeaderText = "Nombre del Material";
+            this.Nom_Herr.Name = "Nom_Herr";
+            // 
+            // Entregada
+            // 
+            this.Entregada.HeaderText = "Material";
+            this.Entregada.Name = "Entregada";
+            // 
+            // Cant_Mat
+            // 
+            this.Cant_Mat.HeaderText = "Cantidad";
+            this.Cant_Mat.Name = "Cant_Mat";
             // 
             // Comprar
             // 
@@ -229,7 +213,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -242,16 +226,14 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button BotonComprar;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn checkcompra;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID_Orden;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nom_Mat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Desc_Mat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Medi_Mat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio_Mat;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn AprobarM;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nom_Herr;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Entregada;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cant_Mat;
     }
 }
