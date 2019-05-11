@@ -33,7 +33,14 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label9 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label17 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.Tmaterial = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.AgregarMaterial = new System.Windows.Forms.Button();
@@ -45,10 +52,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label9 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -59,6 +62,12 @@
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EncHerr = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FSalida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FRegreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.entregadas = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.label13 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
@@ -73,15 +82,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BotonRegresar = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EncHerr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FSalida = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FRegreso = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.entregadas = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.preparado = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.ID_Orden = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nom_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -91,9 +91,9 @@
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabPage1.SuspendLayout();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.tabPage5.SuspendLayout();
@@ -147,6 +147,59 @@
             this.tabControl1.Size = new System.Drawing.Size(1066, 498);
             this.tabControl1.TabIndex = 0;
             // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage2.Controls.Add(this.button1);
+            this.tabPage2.Controls.Add(this.dataGridView1);
+            this.tabPage2.Controls.Add(this.label9);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1058, 472);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Preparar";
+            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(463, 388);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(132, 49);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Preparado";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.preparado,
+            this.ID_Orden,
+            this.Nom_Mat,
+            this.Materialp,
+            this.Medi_Mat,
+            this.Cant_Mat});
+            this.dataGridView1.Location = new System.Drawing.Point(253, 76);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(643, 47);
+            this.dataGridView1.TabIndex = 14;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(476, 3);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(101, 25);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "Ordenes";
+            // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Transparent;
@@ -171,6 +224,34 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Agregar";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(457, 21);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(248, 29);
+            this.label17.TabIndex = 57;
+            this.label17.Text = "Agregar a inventario";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(243, 291);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(614, 20);
+            this.textBox7.TabIndex = 56;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(14, 291);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(136, 25);
+            this.label16.TabIndex = 55;
+            this.label16.Text = "Descripcion";
             // 
             // Tmaterial
             // 
@@ -271,59 +352,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre ";
             // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage2.Controls.Add(this.button1);
-            this.tabPage2.Controls.Add(this.dataGridView1);
-            this.tabPage2.Controls.Add(this.label9);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1058, 472);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Preparar";
-            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.Control;
-            this.button1.Location = new System.Drawing.Point(463, 388);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 49);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Preparado";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.preparado,
-            this.ID_Orden,
-            this.Nom_Mat,
-            this.Materialp,
-            this.Medi_Mat,
-            this.Cant_Mat});
-            this.dataGridView1.Location = new System.Drawing.Point(253, 76);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(643, 47);
-            this.dataGridView1.TabIndex = 14;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(476, 3);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 25);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Ordenes";
-            // 
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.Transparent;
@@ -411,6 +439,36 @@
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.Size = new System.Drawing.Size(644, 47);
             this.dataGridView4.TabIndex = 18;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.HeaderText = "Herramienta";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.HeaderText = "Proyecto";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // EncHerr
+            // 
+            this.EncHerr.HeaderText = "Encargado";
+            this.EncHerr.Name = "EncHerr";
+            // 
+            // FSalida
+            // 
+            this.FSalida.HeaderText = "Salida";
+            this.FSalida.Name = "FSalida";
+            // 
+            // FRegreso
+            // 
+            this.FRegreso.HeaderText = "Entrega";
+            this.FRegreso.Name = "FRegreso";
+            // 
+            // entregadas
+            // 
+            this.entregadas.HeaderText = "Entregadas";
+            this.entregadas.Name = "entregadas";
             // 
             // label13
             // 
@@ -559,64 +617,6 @@
             this.BotonRegresar.UseVisualStyleBackColor = false;
             this.BotonRegresar.Click += new System.EventHandler(this.BotonRegresar_Click);
             // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(243, 291);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(614, 20);
-            this.textBox7.TabIndex = 56;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(14, 291);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(136, 25);
-            this.label16.TabIndex = 55;
-            this.label16.Text = "Descripcion";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(457, 21);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(248, 29);
-            this.label17.TabIndex = 57;
-            this.label17.Text = "Agregar a inventario";
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Herramienta";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.HeaderText = "Proyecto";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            // 
-            // EncHerr
-            // 
-            this.EncHerr.HeaderText = "Encargado";
-            this.EncHerr.Name = "EncHerr";
-            // 
-            // FSalida
-            // 
-            this.FSalida.HeaderText = "Salida";
-            this.FSalida.Name = "FSalida";
-            // 
-            // FRegreso
-            // 
-            this.FRegreso.HeaderText = "Entrega";
-            this.FRegreso.Name = "FRegreso";
-            // 
-            // entregadas
-            // 
-            this.entregadas.HeaderText = "Entregadas";
-            this.entregadas.Name = "entregadas";
-            // 
             // preparado
             // 
             this.preparado.HeaderText = "Preparado";
@@ -636,7 +636,7 @@
             // 
             // Materialp
             // 
-            this.Materialp.HeaderText = "Material";
+            this.Materialp.HeaderText = "Tipo";
             this.Materialp.Name = "Materialp";
             // 
             // Medi_Mat
@@ -667,11 +667,11 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
