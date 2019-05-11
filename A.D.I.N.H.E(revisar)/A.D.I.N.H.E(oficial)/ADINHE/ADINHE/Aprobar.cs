@@ -45,7 +45,6 @@ namespace ADINHE
             panel1.BackColor = Color.FromArgb(180, 255, 151, 0);
             panel2.BackColor = Color.FromArgb(180, 236, 231, 224);
             panel3.BackColor = Color.FromArgb(180, 236, 231, 224);
-            Historial.BackColor = Color.FromArgb(255, 240, 225, 197);
             AprogaryH.BackColor = Color.FromArgb(255, 240, 225, 197);
             BotonAprobar.BackColor = Color.FromArgb(255, 161, 119, 65);
         }

@@ -21,27 +21,6 @@ namespace ADINHE
         {
 
 
-            private void BotonMaterial_Click(object sender, EventArgs e)
-            {
-                Solicitudes Material1 = new Solicitudes();
-                this.Hide();
-                Material1.Show();
-            }
-
-            private void BotonAlmacen_Click(object sender, EventArgs e)
-            {
-                Almacen Almacen1 = new Almacen();
-                this.Hide();
-                Almacen1.Show();
-            }
-
-            private void BotonCerrarSesion_Click(object sender, EventArgs e)
-            {
-                Login Login1 = new Login();
-                this.Hide();
-                Login1.Show();
-            }
-
         }
     }
 }

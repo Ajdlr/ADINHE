@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Recepcion));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.BotonHerramientas = new System.Windows.Forms.Button();
+            this.BotonMateriales = new System.Windows.Forms.Button();
             this.BotonAlmacen = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.BotonCerrarSesion = new System.Windows.Forms.Button();
@@ -56,29 +56,28 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.BotonHerramientas);
+            this.panel4.Controls.Add(this.BotonMateriales);
             this.panel4.Controls.Add(this.BotonAlmacen);
             this.panel4.Location = new System.Drawing.Point(65, 110);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(467, 235);
             this.panel4.TabIndex = 15;
             // 
-            // BotonHerramientas
+            // BotonMateriales
             // 
-            this.BotonHerramientas.BackColor = System.Drawing.Color.Transparent;
-            this.BotonHerramientas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.BotonHerramientas.FlatAppearance.BorderSize = 0;
-            this.BotonHerramientas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonHerramientas.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonHerramientas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(85)))), ((int)(((byte)(46)))));
-            this.BotonHerramientas.Location = new System.Drawing.Point(99, 49);
-            this.BotonHerramientas.Name = "BotonHerramientas";
-            this.BotonHerramientas.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.BotonHerramientas.Size = new System.Drawing.Size(261, 67);
-            this.BotonHerramientas.TabIndex = 12;
-            this.BotonHerramientas.Text = "Solicitudes";
-            this.BotonHerramientas.UseVisualStyleBackColor = false;
-            this.BotonHerramientas.Click += new System.EventHandler(this.BotonHerramientas_Click_1);
+            this.BotonMateriales.BackColor = System.Drawing.Color.Transparent;
+            this.BotonMateriales.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BotonMateriales.FlatAppearance.BorderSize = 0;
+            this.BotonMateriales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BotonMateriales.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonMateriales.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(85)))), ((int)(((byte)(46)))));
+            this.BotonMateriales.Location = new System.Drawing.Point(99, 28);
+            this.BotonMateriales.Name = "BotonMateriales";
+            this.BotonMateriales.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.BotonMateriales.Size = new System.Drawing.Size(261, 67);
+            this.BotonMateriales.TabIndex = 12;
+            this.BotonMateriales.Text = "Solicitudes";
+            this.BotonMateriales.UseVisualStyleBackColor = false;
             // 
             // BotonAlmacen
             // 
@@ -168,7 +167,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button BotonHerramientas;
+        private System.Windows.Forms.Button BotonMateriales;
         private System.Windows.Forms.Button BotonAlmacen;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button BotonCerrarSesion;

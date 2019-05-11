@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Comprar));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.BotonRegresar = new System.Windows.Forms.Button();
@@ -39,7 +38,6 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.BotonComprar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.checkcompra = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.ID_Orden = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nom_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,6 +45,7 @@
             this.Medi_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -69,7 +68,6 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Location = new System.Drawing.Point(1, 0);
             this.panel3.Name = "panel3";
@@ -77,23 +75,12 @@
             this.panel3.TabIndex = 14;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(517, 8);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(194, 31);
-            this.label7.TabIndex = 10;
-            this.label7.Text = "Administrador";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(553, 39);
+            this.label8.Location = new System.Drawing.Point(553, 21);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(114, 29);
             this.label8.TabIndex = 11;
@@ -155,7 +142,7 @@
             this.BotonComprar.Name = "BotonComprar";
             this.BotonComprar.Size = new System.Drawing.Size(132, 49);
             this.BotonComprar.TabIndex = 22;
-            this.BotonComprar.Text = "Comprar";
+            this.BotonComprar.Text = "Comprado";
             this.BotonComprar.UseVisualStyleBackColor = false;
             this.BotonComprar.Click += new System.EventHandler(this.BotonComprar_Click);
             // 
@@ -174,16 +161,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(743, 59);
             this.dataGridView1.TabIndex = 16;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(432, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(249, 25);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Material sin existencia";
             // 
             // checkcompra
             // 
@@ -222,6 +199,16 @@
             this.Precio_Mat.HeaderText = "Precio del Material";
             this.Precio_Mat.Name = "Precio_Mat";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(432, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(249, 25);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Material sin existencia";
+            // 
             // Comprar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -252,7 +239,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button BotonRegresar;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label1;

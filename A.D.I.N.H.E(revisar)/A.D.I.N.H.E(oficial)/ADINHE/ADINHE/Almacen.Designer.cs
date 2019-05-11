@@ -58,16 +58,6 @@
             this.Medi_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cant_Mat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label9 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.BotonEntregado = new System.Windows.Forms.Button();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.entregado = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Material = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tipo_material = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Medida = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label10 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -94,8 +84,6 @@
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.tabPage5.SuspendLayout();
@@ -139,7 +127,6 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Location = new System.Drawing.Point(49, 102);
@@ -386,89 +373,6 @@
             this.label9.TabIndex = 12;
             this.label9.Text = "Ordenes";
             // 
-            // tabPage3
-            // 
-            this.tabPage3.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage3.Controls.Add(this.BotonEntregado);
-            this.tabPage3.Controls.Add(this.dataGridView2);
-            this.tabPage3.Controls.Add(this.label10);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1058, 472);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Salida";
-            this.tabPage3.Click += new System.EventHandler(this.tabPage3_Click);
-            // 
-            // BotonEntregado
-            // 
-            this.BotonEntregado.BackColor = System.Drawing.Color.Black;
-            this.BotonEntregado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonEntregado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonEntregado.ForeColor = System.Drawing.SystemColors.Control;
-            this.BotonEntregado.Location = new System.Drawing.Point(457, 271);
-            this.BotonEntregado.Name = "BotonEntregado";
-            this.BotonEntregado.Size = new System.Drawing.Size(132, 49);
-            this.BotonEntregado.TabIndex = 19;
-            this.BotonEntregado.Text = "Entregado";
-            this.BotonEntregado.UseVisualStyleBackColor = false;
-            this.BotonEntregado.Click += new System.EventHandler(this.BotonEntregado_Click);
-            // 
-            // dataGridView2
-            // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.entregado,
-            this.dataGridViewTextBoxColumn1,
-            this.Material,
-            this.tipo_material,
-            this.Medida,
-            this.cantidad});
-            this.dataGridView2.Location = new System.Drawing.Point(214, 65);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(643, 58);
-            this.dataGridView2.TabIndex = 15;
-            // 
-            // entregado
-            // 
-            this.entregado.HeaderText = "Entregado";
-            this.entregado.Name = "entregado";
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID_Orden";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // Material
-            // 
-            this.Material.HeaderText = "Material";
-            this.Material.Name = "Material";
-            // 
-            // tipo_material
-            // 
-            this.tipo_material.HeaderText = "Tipo de material";
-            this.tipo_material.Name = "tipo_material";
-            // 
-            // Medida
-            // 
-            this.Medida.HeaderText = "Medida";
-            this.Medida.Name = "Medida";
-            // 
-            // cantidad
-            // 
-            this.cantidad.HeaderText = "Cantidad";
-            this.cantidad.Name = "cantidad";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(424, 3);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(226, 25);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "Ordenes entregadas";
-            // 
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.Transparent;
@@ -649,9 +553,6 @@
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
@@ -680,24 +581,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Button BotonRegresar;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button BotonEntregado;
-        private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn entregado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Material;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tipo_material;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Medida;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cantidad;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button AgregarMaterial;
         private System.Windows.Forms.Panel panel3;

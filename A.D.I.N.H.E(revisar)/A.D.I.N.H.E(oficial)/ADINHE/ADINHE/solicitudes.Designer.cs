@@ -36,9 +36,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,7 +45,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.BotonEnviar = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
@@ -61,7 +59,11 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.BotonEnviar = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -76,7 +78,7 @@
             this.BotonSolicitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonSolicitar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BotonSolicitar.ForeColor = System.Drawing.Color.White;
-            this.BotonSolicitar.Location = new System.Drawing.Point(454, 375);
+            this.BotonSolicitar.Location = new System.Drawing.Point(463, 420);
             this.BotonSolicitar.Name = "BotonSolicitar";
             this.BotonSolicitar.Size = new System.Drawing.Size(208, 46);
             this.BotonSolicitar.TabIndex = 27;
@@ -141,9 +143,11 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.textBox3);
-            this.tabPage1.Controls.Add(this.textBox2);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.comboBox4);
+            this.tabPage1.Controls.Add(this.comboBox3);
+            this.tabPage1.Controls.Add(this.comboBox2);
+            this.tabPage1.Controls.Add(this.comboBox1);
+            this.tabPage1.Controls.Add(this.label14);
             this.tabPage1.Controls.Add(this.dateTimePicker1);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.label1);
@@ -161,30 +165,19 @@
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
-            // textBox3
+            // label14
             // 
-            this.textBox3.Location = new System.Drawing.Point(275, 118);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(614, 20);
-            this.textBox3.TabIndex = 35;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(275, 181);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(614, 20);
-            this.textBox2.TabIndex = 34;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(275, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(614, 20);
-            this.textBox1.TabIndex = 33;
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(45, 305);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(105, 25);
+            this.label14.TabIndex = 36;
+            this.label14.Text = "Proyecto";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(275, 312);
+            this.dateTimePicker1.Location = new System.Drawing.Point(275, 364);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(211, 20);
             this.dateTimePicker1.TabIndex = 32;
@@ -193,7 +186,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(50, 314);
+            this.label4.Location = new System.Drawing.Point(50, 366);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(201, 19);
             this.label4.TabIndex = 31;
@@ -269,14 +262,18 @@
             this.tabPage2.Text = "Herramientas";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // panel3
+            // BotonEnviar
             // 
-            this.panel3.Controls.Add(this.BotonRegresar);
-            this.panel3.Location = new System.Drawing.Point(3, 632);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1162, 48);
-            this.panel3.TabIndex = 30;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            this.BotonEnviar.BackColor = System.Drawing.Color.Black;
+            this.BotonEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BotonEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonEnviar.ForeColor = System.Drawing.Color.White;
+            this.BotonEnviar.Location = new System.Drawing.Point(477, 433);
+            this.BotonEnviar.Name = "BotonEnviar";
+            this.BotonEnviar.Size = new System.Drawing.Size(216, 36);
+            this.BotonEnviar.TabIndex = 49;
+            this.BotonEnviar.Text = "Enviar";
+            this.BotonEnviar.UseVisualStyleBackColor = false;
             // 
             // textBox4
             // 
@@ -390,20 +387,48 @@
             this.label12.TabIndex = 36;
             this.label12.Text = "Salida de herramienta";
             // 
-            // BotonEnviar
+            // panel3
             // 
-            this.BotonEnviar.BackColor = System.Drawing.Color.Black;
-            this.BotonEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BotonEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BotonEnviar.ForeColor = System.Drawing.Color.White;
-            this.BotonEnviar.Location = new System.Drawing.Point(477, 433);
-            this.BotonEnviar.Name = "BotonEnviar";
-            this.BotonEnviar.Size = new System.Drawing.Size(216, 36);
-            this.BotonEnviar.TabIndex = 49;
-            this.BotonEnviar.Text = "Enviar";
-            this.BotonEnviar.UseVisualStyleBackColor = false;
+            this.panel3.Controls.Add(this.BotonRegresar);
+            this.panel3.Location = new System.Drawing.Point(3, 632);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1162, 48);
+            this.panel3.TabIndex = 30;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // SOlicitudes
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(276, 47);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(613, 21);
+            this.comboBox1.TabIndex = 37;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(276, 181);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(613, 21);
+            this.comboBox2.TabIndex = 38;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(276, 112);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(613, 21);
+            this.comboBox3.TabIndex = 39;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(275, 305);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(613, 21);
+            this.comboBox4.TabIndex = 40;
+            // 
+            // Solicitudes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -413,7 +438,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "SOlicitudes";
+            this.Name = "Solicitudes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Solicitudes";
             this.Load += new System.EventHandler(this.Material_Load);
@@ -446,9 +471,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label6;
@@ -464,5 +486,10 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button BotonEnviar;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox4;
     }
 }
