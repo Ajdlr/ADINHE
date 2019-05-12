@@ -99,7 +99,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(139, 21);
             this.comboBox1.TabIndex = 26;
-            this.comboBox1.Text = "Seleccione una opción";
             // 
             // txtContraseña
             // 
