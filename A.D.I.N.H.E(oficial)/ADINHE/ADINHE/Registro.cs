@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ADINHE.CAPACONEXION;
 
 namespace ADINHE
 {
     public partial class Registro : Form
     {
+        ClsProductos objProduto = new ClsProductos();
+
         public Registro()
         {
             InitializeComponent();
@@ -31,15 +34,10 @@ namespace ADINHE
 
         private void BotonRegis_Click(object sender, EventArgs e)
         {
+            objProduto.InsertarRegistro(Convert.ToInt32(cmbRol.SelectedValue), txtContraseña.Text, txtUsuario.Text);
 
-            if (UsuarioDAL.CrearCuentas(txtUsuario.Text, txtContraseña.Text, comboBox1.Text) > 0)
-            {
-                MessageBox.Show("Cuenta Creada con exito");
-            }
-            else
-                MessageBox.Show("No se pudo crear la cuenta");
+            MessageBox.Show("Registro correcto");
         }
-
     }
-        }
+}
 

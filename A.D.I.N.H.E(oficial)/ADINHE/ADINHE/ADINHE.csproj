@@ -82,6 +82,8 @@
     <Compile Include="Aprobar.Designer.cs">
       <DependentUpon>Aprobar.cs</DependentUpon>
     </Compile>
+    <Compile Include="CAPACONEXION\ClsProductos.cs" />
+    <Compile Include="CAPACONEXION\ConecionBD.cs" />
     <Compile Include="Comprar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,7 +102,6 @@
     <Compile Include="Proyectos.Designer.cs">
       <DependentUpon>Proyectos.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProyectosDAL.cs" />
     <Compile Include="Recepcion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,7 +114,6 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="RProyecto.cs" />
     <Compile Include="Solicitudes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,7 +128,6 @@
     <Compile Include="Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
-    <Compile Include="UsuarioDAl.cs" />
     <EmbeddedResource Include="Administrador.resx">
       <DependentUpon>Administrador.cs</DependentUpon>
     </EmbeddedResource>

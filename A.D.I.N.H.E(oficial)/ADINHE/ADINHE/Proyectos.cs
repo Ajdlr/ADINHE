@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ADINHE.CAPACONEXION;
 
 namespace ADINHE
 {
     public partial class Proyectos : Form
     {
+        ClsProductos objProduto = new ClsProductos();
         public Proyectos()
         {
             InitializeComponent();
@@ -19,6 +21,16 @@ namespace ADINHE
 
         private void Proyectos_Load(object sender, EventArgs e)
         {
+            ListarProyectos();
+            ListarUsuario();
+        }
+
+        private void ListarUsuario()
+        {
+            ClsProductos objProd = new ClsProductos();
+            cmbEncargado.DataSource = objProd.ListarUsuario();
+            cmbEncargado.DisplayMember = "descripcion";
+            cmbEncargado.ValueMember = "usuarioid";
 
         }
 
@@ -36,38 +48,24 @@ namespace ADINHE
 
         private void BotonComprar_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "")
-            {
-                MessageBox.Show("Debe llenar todos los Campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-            else
-            {
-                Proyecto proyecto = new Proyecto();                
-                proyecto.Descripcion = textBox1.Text;
-                proyecto.Usuariod = textBox2.Text;
-                proyecto.Proyectoid = textBox3.Text;
+            objProduto.InsertarProyecto(Convert.ToInt32(cmbEncargado.SelectedValue), textBox1.Text, textBox2.Text);
 
-
-
-                int resultado = ProyectosDAL.Agregar(proyecto);
-
-                if (resultado > 0)
-                {
-                    MessageBox.Show("Datos Guardados Corerectamente", "Datos Guardado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    limpiar();
-
-                }
-
-                else
-                {
-                    MessageBox.Show("No se pudieron Guardar lo datos", "Error al Guardar", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                }
-            }
+            MessageBox.Show("Registro correcto");
+            ListarProyectos();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+}
 
+
+
+        private void ListarProyectos()
+        {
+            ClsProductos objProduto = new ClsProductos();
+            dataGridView1 = objPro.ListarProyectos();
         }
+
+
     }
 }

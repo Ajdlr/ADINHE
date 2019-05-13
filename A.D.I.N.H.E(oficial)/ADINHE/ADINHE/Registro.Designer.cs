@@ -32,7 +32,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnRegistrar = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbRol = new System.Windows.Forms.ComboBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -62,7 +62,7 @@
             // panel4
             // 
             this.panel4.Controls.Add(this.btnRegistrar);
-            this.panel4.Controls.Add(this.comboBox1);
+            this.panel4.Controls.Add(this.cmbRol);
             this.panel4.Controls.Add(this.txtContraseña);
             this.panel4.Controls.Add(this.txtUsuario);
             this.panel4.Controls.Add(this.label3);
@@ -87,18 +87,18 @@
             this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.BotonRegis_Click);
             // 
-            // comboBox1
+            // cmbRol
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbRol.FormattingEnabled = true;
+            this.cmbRol.Items.AddRange(new object[] {
             "Administrador",
             "Encargado",
             "Recepcion",
             "Almacen"});
-            this.comboBox1.Location = new System.Drawing.Point(151, 117);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(139, 21);
-            this.comboBox1.TabIndex = 26;
+            this.cmbRol.Location = new System.Drawing.Point(151, 117);
+            this.cmbRol.Name = "cmbRol";
+            this.cmbRol.Size = new System.Drawing.Size(139, 21);
+            this.cmbRol.TabIndex = 26;
             // 
             // txtContraseña
             // 
@@ -216,7 +216,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnRegistrar;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbRol;
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label label3;

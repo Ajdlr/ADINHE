@@ -33,13 +33,9 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.BotonTerminado = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.proyectos_ver = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EncProy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.matproy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.herrproy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Terminado = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.BotonRegistroProy = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,16 +44,15 @@
             this.BotonRegresar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cmbEncargado = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -83,8 +78,8 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.BotonTerminado);
             this.tabPage1.Controls.Add(this.dataGridView1);
+            this.tabPage1.Controls.Add(this.BotonTerminado);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -106,51 +101,9 @@
             this.BotonTerminado.Text = "Terminado";
             this.BotonTerminado.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.proyectos_ver,
-            this.EncProy,
-            this.matproy,
-            this.herrproy,
-            this.Terminado});
-            this.dataGridView1.Location = new System.Drawing.Point(34, 18);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(543, 45);
-            this.dataGridView1.TabIndex = 17;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // proyectos_ver
-            // 
-            this.proyectos_ver.HeaderText = "Proyecto";
-            this.proyectos_ver.Name = "proyectos_ver";
-            this.proyectos_ver.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.proyectos_ver.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // EncProy
-            // 
-            this.EncProy.HeaderText = "Encargado";
-            this.EncProy.Name = "EncProy";
-            // 
-            // matproy
-            // 
-            this.matproy.HeaderText = "Materiales";
-            this.matproy.Name = "matproy";
-            // 
-            // herrproy
-            // 
-            this.herrproy.HeaderText = "Herramientas";
-            this.herrproy.Name = "herrproy";
-            // 
-            // Terminado
-            // 
-            this.Terminado.HeaderText = "Terminado";
-            this.Terminado.Name = "Terminado";
-            // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.textBox3);
+            this.tabPage2.Controls.Add(this.cmbEncargado);
             this.tabPage2.Controls.Add(this.textBox2);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.BotonRegistroProy);
@@ -164,6 +117,23 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Registrar proyectos";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(261, 129);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(219, 20);
+            this.textBox2.TabIndex = 44;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(19, 129);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(209, 25);
+            this.label4.TabIndex = 43;
+            this.label4.Text = "Clave del proyecto";
             // 
             // BotonRegistroProy
             // 
@@ -250,29 +220,21 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "Proyectos";
             // 
-            // label4
+            // cmbEncargado
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(19, 129);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(209, 25);
-            this.label4.TabIndex = 43;
-            this.label4.Text = "Clave del proyecto";
+            this.cmbEncargado.FormattingEnabled = true;
+            this.cmbEncargado.Location = new System.Drawing.Point(261, 80);
+            this.cmbEncargado.Name = "cmbEncargado";
+            this.cmbEncargado.Size = new System.Drawing.Size(219, 21);
+            this.cmbEncargado.TabIndex = 45;
             // 
-            // textBox2
+            // dataGridView1
             // 
-            this.textBox2.Location = new System.Drawing.Point(261, 129);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(219, 20);
-            this.textBox2.TabIndex = 44;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(261, 86);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(219, 20);
-            this.textBox3.TabIndex = 45;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(27, 17);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(565, 198);
+            this.dataGridView1.TabIndex = 24;
             // 
             // Proyectos
             // 
@@ -287,12 +249,12 @@
             this.panel1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -300,7 +262,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button BotonRegresar;
         private System.Windows.Forms.Panel panel2;
@@ -312,14 +273,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BotonRegistroProy;
-        private System.Windows.Forms.DataGridViewTextBoxColumn proyectos_ver;
-        private System.Windows.Forms.DataGridViewTextBoxColumn EncProy;
-        private System.Windows.Forms.DataGridViewTextBoxColumn matproy;
-        private System.Windows.Forms.DataGridViewTextBoxColumn herrproy;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Terminado;
         private System.Windows.Forms.Button BotonTerminado;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox cmbEncargado;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
