@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace Ap_escuela
 {
-    class UsuarioDAL
+   public class UsuarioDAL
     {
 
         public static int CrearCuentas(string pUsuario, string pContraseña)

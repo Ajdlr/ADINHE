@@ -32,7 +32,7 @@ namespace ADINHE
         private void BotonRegis_Click(object sender, EventArgs e)
         {
 
-            if (UsuarioDal.CrearCuentas(txtUsuario.Text, txtContraseña.Text, comboBox1.Text) > 0)
+            if (UsuarioDAL.CrearCuentas(txtUsuario.Text, txtContraseña.Text, comboBox1.Text) > 0)
             {
                 MessageBox.Show("Cuenta Creada con exito");
             }

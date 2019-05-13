@@ -42,8 +42,7 @@ namespace ADINHE
             }
             else
             {
-                Proyecto proyecto = new Proyecto();
-                Alumno.Nombre = txtNombre.Text;
+                Proyecto proyecto = new Proyecto();                
                 proyecto.Descripcion = textBox1.Text;
                 proyecto.Usuariod = textBox2.Text;
                 proyecto.Proyectoid = textBox3.Text;
