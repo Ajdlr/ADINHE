@@ -57,12 +57,12 @@ namespace ADINHE.CAPACONEXION
             Comando.Parameters.Clear();
 
         }
-        public DataTable ListarProyectos()
+        public DataTable ListarProyecto_M()
         {
             {
                 DataTable Tabla = new DataTable();
                 Comando.Connection = Conexion.AbrirConexion();
-                Comando.CommandText = "ListarProyectos";
+                Comando.CommandText = "ListarProyecto_M";
                 Comando.CommandType = CommandType.StoredProcedure;
                 LeerFilas = Comando.ExecuteReader();
                 Tabla.Load(LeerFilas);

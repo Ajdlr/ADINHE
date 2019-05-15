@@ -165,12 +165,11 @@ as
 select from descripcion order by inventario.usuario asc
 go
 
-create proc ListarProyectos
-select detalle_proectoid as 
+create proc ListarProyecto_M
+as
+select bodegaid,detalle_proectoid,descripcion 
 from inventario.detalle_proyecto
-inner join descripcion on inventario.detalle_proyecto=inventario.proyecto.descripcion
-inner join usuarioid on inventario.detalle_proyecto=inventario.proyecto.usuario_usuarioid
-inner join proyectoid on inventario.detalle_proyecto=inventario.proyecto.proyectoid
-inner join nombre on inventario.detalle_proyecto=inventario.bodega.nombre
-inner join tipo on inventario. detalle_proyecto=inventario.bodega.tipo 
+inner join inventario.bodega on inventario.detalle_proyecto.preparar_prepararid=inventario.bodega.bodegaid
+inner join inventario.proyecto on inventario.detalle_proyecto.proyecto_proyectoid=inventario.proyecto.descripcion
 go
+

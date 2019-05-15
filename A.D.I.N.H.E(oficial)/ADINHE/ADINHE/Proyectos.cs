@@ -21,7 +21,7 @@ namespace ADINHE
 
         private void Proyectos_Load(object sender, EventArgs e)
         {
-            ListarProyectos();
+            ListarProyecto_M();
             ListarUsuario();
         }
 
@@ -63,7 +63,7 @@ namespace ADINHE
         private void ListarProyectos()
         {
             ClsProductos objProduto = new ClsProductos();
-            dataGridView1 = objPro.ListarProyectos();
+            dataGridView1 = objPro.ListarProyecto_M();
         }
 
 

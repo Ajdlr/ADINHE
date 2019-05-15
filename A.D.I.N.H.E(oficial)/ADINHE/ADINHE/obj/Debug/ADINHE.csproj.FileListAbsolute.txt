@@ -141,3 +141,20 @@ C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\AD
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.exe
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.pdb
 C:\Users\andre\Desktop\juntar adine\A.D.I.N.H.E(revisar)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Solicitudes.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Administrador.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Almacen.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Almacenista.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Aprobar.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Comprar.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Encargado.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Proyectos.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Recepcion.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Login.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Solicitudes.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Properties.Resources.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.Registro.resources
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.GenerateResource.cache
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.exe
+C:\Users\andre\OneDrive\Documentos\Nueva carpeta (2)\A.D.I.N.H.E(oficial)\ADINHE\ADINHE\obj\Debug\ADINHE.pdb
