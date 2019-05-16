@@ -8,9 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ADINHE.CAPACONEXION;
+using System.Data;
+using System.Data.SqlClient
 
 namespace ADINHE
 {
+
     public partial class Proyectos : Form
     {
         ClsProductos objProduto = new ClsProductos();
@@ -23,6 +26,7 @@ namespace ADINHE
         {
             ListarProyecto_M();
             ListarUsuario();
+            EliminarProyecto();
         }
 
         private void ListarUsuario()
@@ -66,6 +70,11 @@ namespace ADINHE
             dataGridView1 = objPro.ListarProyecto_M();
         }
 
-
+        private void BotonTerminado_Click(object sender, EventArgs e)
+        {
+            ClsProductos objProduto = new ClsProductos();
+            objProduto.EliminarProyecto();
+            MessageBox.Show("Registro eliminado");
+        }
     }
 }

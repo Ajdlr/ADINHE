@@ -165,7 +165,7 @@ as
 select from descripcion order by inventario.usuario asc
 go
 
-create proc ListarProyecto_M
+create proc ListarProyectos
 as
 select bodegaid,detalle_proectoid,descripcion 
 from inventario.detalle_proyecto
@@ -173,3 +173,9 @@ inner join inventario.bodega on inventario.detalle_proyecto.preparar_prepararid=
 inner join inventario.proyecto on inventario.detalle_proyecto.proyecto_proyectoid=inventario.proyecto.descripcion
 go
 
+create proc EliminarProyecto
+as
+select proyecto_proyectoid
+from inventario.detalle_proyecto
+delete inventario.detalle_proyecto where @proyectoid = proyecto_proyectoid
+go

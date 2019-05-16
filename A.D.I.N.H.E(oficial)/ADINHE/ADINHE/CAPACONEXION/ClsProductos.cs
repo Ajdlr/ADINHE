@@ -50,7 +50,7 @@ namespace ADINHE.CAPACONEXION
             Comando.Connection = Conexion.AbrirConexion();
             Comando.CommandText = "InsertarProyecto";
             Comando.CommandType = CommandType.StoredProcedure;
-            Comando.Parameters.AddWithValue("@proyecto", int proyectoid);
+            Comando.Parameters.AddWithValue("@proyectoid", int proyectoid);
             Comando.Parameters.AddWithValue("@descripcion", string descripcion);
             Comando.Parameters.AddWithValue("@usuario_usuarioid", int usuario_usuarioid);
             Comando.ExecuteNonQuery();
@@ -70,6 +70,19 @@ namespace ADINHE.CAPACONEXION
                 Conexion.CerrarConexion();
                 return Tabla;
             }
+        }
+
+        public void EliminarProyecto(int usuario_usuarioid, string descripcion, int proyectoid)
+        {
+            Comando.Connection = Conexion.AbrirConexion();
+            Comando.CommandText = "EliminarProyecto";
+            Comando.CommandType = CommandType.StoredProcedure;
+            Comando.Parameters.AddWithValue("@proyectoid", int proyectoid);
+            Comando.Parameters.AddWithValue("@descripcion", string descripcion);
+            Comando.Parameters.AddWithValue("@usuario_usuarioid", int usuario_usuarioid);
+            Comando.ExecuteNonQuery();
+            Comando.Parameters.Clear();
+
         }
 
 

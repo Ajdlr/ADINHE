@@ -32,8 +32,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.BotonTerminado = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.cmbEncargado = new System.Windows.Forms.ComboBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.BotonRegistroProy = new System.Windows.Forms.Button();
@@ -44,15 +46,13 @@
             this.BotonRegresar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmbEncargado = new System.Windows.Forms.ComboBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -88,6 +88,14 @@
             this.tabPage1.Text = "Proyectos";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(27, 17);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(565, 198);
+            this.dataGridView1.TabIndex = 24;
+            // 
             // BotonTerminado
             // 
             this.BotonTerminado.BackColor = System.Drawing.Color.Black;
@@ -100,6 +108,7 @@
             this.BotonTerminado.TabIndex = 23;
             this.BotonTerminado.Text = "Terminado";
             this.BotonTerminado.UseVisualStyleBackColor = false;
+            this.BotonTerminado.Click += new System.EventHandler(this.BotonTerminado_Click);
             // 
             // tabPage2
             // 
@@ -117,6 +126,14 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Registrar proyectos";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // cmbEncargado
+            // 
+            this.cmbEncargado.FormattingEnabled = true;
+            this.cmbEncargado.Location = new System.Drawing.Point(261, 80);
+            this.cmbEncargado.Name = "cmbEncargado";
+            this.cmbEncargado.Size = new System.Drawing.Size(219, 21);
+            this.cmbEncargado.TabIndex = 45;
             // 
             // textBox2
             // 
@@ -220,22 +237,6 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "Proyectos";
             // 
-            // cmbEncargado
-            // 
-            this.cmbEncargado.FormattingEnabled = true;
-            this.cmbEncargado.Location = new System.Drawing.Point(261, 80);
-            this.cmbEncargado.Name = "cmbEncargado";
-            this.cmbEncargado.Size = new System.Drawing.Size(219, 21);
-            this.cmbEncargado.TabIndex = 45;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(27, 17);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(565, 198);
-            this.dataGridView1.TabIndex = 24;
-            // 
             // Proyectos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,12 +250,12 @@
             this.panel1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
